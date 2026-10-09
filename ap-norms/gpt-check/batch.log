@@ -1,0 +1,200 @@
+UTC batch started: 2026-10-09T12:06:22Z
+2164423ec1be8399f9ecb6cbcce19012d3a6c8daeb4a4b740b1d0924d8ab7540  ap-norms/gpt-check/check.cpp
+eecb9d6c4d875ddc2f41d398e9123070c5a9ea69b52322951ba82321115ca1e3  ap-norms/gpt-check/check
+1b897114cd017025cbab6164070f841418b5c771f114fbf502b03d91056c34ff  ap-norms/gpt-check/fixtures.txt
+UTC pair started: 2026-10-09T12:06:22Z
+{"mode":"header","q":3,"n":7,"records":157,"witnesses":157,"bytes":1256,"polynomial_primitive":true,"prime_divisors":[2,1093]}
+{"mode":"full","q":3,"n":7,"records":157,"checked":157,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":0.0154908,"threads":8}
+{"mode":"coverage","q":3,"n":7,"records":157,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.00477701}
+{"mode":"complete","q":3,"n":7,"seconds":0.0203452}
+UTC pair finished: 2026-10-09T12:06:22Z
+UTC pair started: 2026-10-09T12:06:22Z
+{"mode":"header","q":3,"n":8,"records":423,"witnesses":423,"bytes":3384,"polynomial_primitive":true,"prime_divisors":[2,5,41]}
+{"mode":"full","q":3,"n":8,"records":423,"checked":423,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":0.012337,"threads":8}
+{"mode":"coverage","q":3,"n":8,"records":423,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.00515472}
+{"mode":"complete","q":3,"n":8,"seconds":0.0175774}
+UTC pair finished: 2026-10-09T12:06:22Z
+UTC pair started: 2026-10-09T12:06:22Z
+{"mode":"header","q":3,"n":10,"records":2979,"witnesses":2979,"bytes":23832,"polynomial_primitive":true,"prime_divisors":[2,11,61]}
+{"mode":"full","q":3,"n":10,"records":2979,"checked":2979,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":0.0132298,"threads":8}
+{"mode":"coverage","q":3,"n":10,"records":2979,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.00495294}
+{"mode":"complete","q":3,"n":10,"seconds":0.0182591}
+UTC pair finished: 2026-10-09T12:06:22Z
+UTC pair started: 2026-10-09T12:06:22Z
+{"mode":"header","q":3,"n":12,"records":22217,"witnesses":22217,"bytes":177736,"polynomial_primitive":true,"prime_divisors":[2,5,7,13,73]}
+{"mode":"full","q":3,"n":12,"records":22217,"checked":22217,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":0.0731921,"threads":8}
+{"mode":"coverage","q":3,"n":12,"records":22217,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.00655322}
+{"mode":"complete","q":3,"n":12,"seconds":0.0798265}
+UTC pair finished: 2026-10-09T12:06:22Z
+UTC pair started: 2026-10-09T12:06:22Z
+{"mode":"header","q":9,"n":6,"records":22217,"witnesses":355472,"bytes":1510756,"polynomial_primitive":true,"prime_divisors":[2,5,7,13,73]}
+{"mode":"full","q":9,"n":6,"records":22217,"checked":355472,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":0.591636,"threads":8}
+{"mode":"coverage","q":9,"n":6,"records":22217,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.00965795}
+{"mode":"complete","q":9,"n":6,"seconds":0.601393}
+UTC pair finished: 2026-10-09T12:06:23Z
+UTC pair started: 2026-10-09T12:06:23Z
+{"mode":"header","q":9,"n":8,"records":1345633,"witnesses":21530128,"bytes":91503044,"polynomial_primitive":true,"prime_divisors":[2,5,17,41,193]}
+{"mode":"progress","q":9,"n":8,"checked":8728576,"total":21530128,"seconds":30.0212}
+{"mode":"progress","q":9,"n":8,"checked":19846672,"total":21530128,"seconds":60.0351}
+{"mode":"full","q":9,"n":8,"records":1345633,"checked":21530128,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":64.2475,"threads":8}
+{"mode":"coverage","q":9,"n":8,"records":1345633,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.526795}
+{"mode":"complete","q":9,"n":8,"seconds":64.775}
+UTC pair finished: 2026-10-09T12:07:28Z
+UTC pair started: 2026-10-09T12:07:28Z
+{"mode":"header","q":27,"n":6,"records":10762819,"witnesses":1549845936,"bytes":6242435020,"polynomial_primitive":true,"prime_divisors":[2,7,13,19,37,757]}
+{"mode":"progress","q":27,"n":6,"checked":5234688,"total":1549845936,"seconds":30.2628}
+{"mode":"progress","q":27,"n":6,"checked":10616832,"total":1549845936,"seconds":60.6631}
+{"mode":"progress","q":27,"n":6,"checked":16146432,"total":1549845936,"seconds":90.9466}
+{"mode":"progress","q":27,"n":6,"checked":21676032,"total":1549845936,"seconds":121.16}
+{"mode":"progress","q":27,"n":6,"checked":27131904,"total":1549845936,"seconds":151.299}
+{"mode":"progress","q":27,"n":6,"checked":32735232,"total":1549845936,"seconds":181.453}
+{"mode":"progress","q":27,"n":6,"checked":38338560,"total":1549845936,"seconds":211.616}
+{"mode":"progress","q":27,"n":6,"checked":44015616,"total":1549845936,"seconds":241.871}
+{"mode":"progress","q":27,"n":6,"checked":49766400,"total":1549845936,"seconds":272.053}
+{"mode":"progress","q":27,"n":6,"checked":55664640,"total":1549845936,"seconds":302.4}
+{"mode":"progress","q":27,"n":6,"checked":61562880,"total":1549845936,"seconds":332.782}
+{"mode":"progress","q":27,"n":6,"checked":67239936,"total":1549845936,"seconds":362.968}
+{"mode":"progress","q":27,"n":6,"checked":73064448,"total":1549845936,"seconds":393.087}
+{"mode":"progress","q":27,"n":6,"checked":79110144,"total":1549845936,"seconds":423.1}
+{"mode":"progress","q":27,"n":6,"checked":85008384,"total":1549845936,"seconds":453.26}
+{"mode":"progress","q":27,"n":6,"checked":91127808,"total":1549845936,"seconds":483.437}
+{"mode":"progress","q":27,"n":6,"checked":97320960,"total":1549845936,"seconds":513.686}
+{"mode":"progress","q":27,"n":6,"checked":103514112,"total":1549845936,"seconds":543.968}
+{"mode":"progress","q":27,"n":6,"checked":109707264,"total":1549845936,"seconds":574.108}
+{"mode":"progress","q":27,"n":6,"checked":116047872,"total":1549845936,"seconds":604.363}
+{"mode":"progress","q":27,"n":6,"checked":122683392,"total":1549845936,"seconds":634.617}
+{"mode":"progress","q":27,"n":6,"checked":129024000,"total":1549845936,"seconds":664.627}
+{"mode":"progress","q":27,"n":6,"checked":135585792,"total":1549845936,"seconds":694.886}
+{"mode":"progress","q":27,"n":6,"checked":142073856,"total":1549845936,"seconds":724.903}
+{"mode":"progress","q":27,"n":6,"checked":148488192,"total":1549845936,"seconds":755.174}
+{"mode":"progress","q":27,"n":6,"checked":155271168,"total":1549845936,"seconds":785.375}
+{"mode":"progress","q":27,"n":6,"checked":162275328,"total":1549845936,"seconds":815.474}
+{"mode":"progress","q":27,"n":6,"checked":168910848,"total":1549845936,"seconds":845.528}
+{"mode":"progress","q":27,"n":6,"checked":175693824,"total":1549845936,"seconds":875.582}
+{"mode":"progress","q":27,"n":6,"checked":182403072,"total":1549845936,"seconds":905.692}
+{"mode":"progress","q":27,"n":6,"checked":189112320,"total":1549845936,"seconds":935.789}
+{"mode":"progress","q":27,"n":6,"checked":196116480,"total":1549845936,"seconds":965.883}
+{"mode":"progress","q":27,"n":6,"checked":203341824,"total":1549845936,"seconds":995.965}
+{"mode":"progress","q":27,"n":6,"checked":210345984,"total":1549845936,"seconds":1025.97}
+{"mode":"progress","q":27,"n":6,"checked":217866240,"total":1549845936,"seconds":1056.14}
+{"mode":"progress","q":27,"n":6,"checked":225902592,"total":1549845936,"seconds":1086.26}
+{"mode":"progress","q":27,"n":6,"checked":234307584,"total":1549845936,"seconds":1116.44}
+{"mode":"progress","q":27,"n":6,"checked":243081216,"total":1549845936,"seconds":1146.59}
+{"mode":"progress","q":27,"n":6,"checked":251854848,"total":1549845936,"seconds":1176.77}
+{"mode":"progress","q":27,"n":6,"checked":260849664,"total":1549845936,"seconds":1206.78}
+{"mode":"progress","q":27,"n":6,"checked":269844480,"total":1549845936,"seconds":1236.92}
+{"mode":"progress","q":27,"n":6,"checked":279134208,"total":1549845936,"seconds":1267.09}
+{"mode":"progress","q":27,"n":6,"checked":288645120,"total":1549845936,"seconds":1297.15}
+{"mode":"progress","q":27,"n":6,"checked":298340352,"total":1549845936,"seconds":1327.31}
+{"mode":"progress","q":27,"n":6,"checked":308146176,"total":1549845936,"seconds":1357.52}
+{"mode":"progress","q":27,"n":6,"checked":318099456,"total":1549845936,"seconds":1387.72}
+{"mode":"progress","q":27,"n":6,"checked":327979008,"total":1549845936,"seconds":1417.88}
+{"mode":"progress","q":27,"n":6,"checked":338079744,"total":1549845936,"seconds":1448.06}
+{"mode":"progress","q":27,"n":6,"checked":348254208,"total":1549845936,"seconds":1478.11}
+{"mode":"progress","q":27,"n":6,"checked":358576128,"total":1549845936,"seconds":1508.23}
+{"mode":"progress","q":27,"n":6,"checked":368898048,"total":1549845936,"seconds":1538.25}
+{"mode":"progress","q":27,"n":6,"checked":379293696,"total":1549845936,"seconds":1568.34}
+{"mode":"progress","q":27,"n":6,"checked":389873664,"total":1549845936,"seconds":1598.52}
+{"mode":"progress","q":27,"n":6,"checked":400416768,"total":1549845936,"seconds":1628.55}
+{"mode":"progress","q":27,"n":6,"checked":411181056,"total":1549845936,"seconds":1658.63}
+{"mode":"progress","q":27,"n":6,"checked":421797888,"total":1549845936,"seconds":1688.72}
+{"mode":"progress","q":27,"n":6,"checked":432635904,"total":1549845936,"seconds":1718.83}
+{"mode":"progress","q":27,"n":6,"checked":443473920,"total":1549845936,"seconds":1748.95}
+{"mode":"progress","q":27,"n":6,"checked":454385664,"total":1549845936,"seconds":1779.04}
+{"mode":"progress","q":27,"n":6,"checked":465371136,"total":1549845936,"seconds":1809.17}
+{"mode":"progress","q":27,"n":6,"checked":476430336,"total":1549845936,"seconds":1839.33}
+{"mode":"progress","q":27,"n":6,"checked":487489536,"total":1549845936,"seconds":1869.37}
+{"mode":"progress","q":27,"n":6,"checked":498475008,"total":1549845936,"seconds":1899.38}
+{"mode":"progress","q":27,"n":6,"checked":509607936,"total":1549845936,"seconds":1929.39}
+{"mode":"progress","q":27,"n":6,"checked":520740864,"total":1549845936,"seconds":1959.5}
+{"mode":"progress","q":27,"n":6,"checked":532168704,"total":1549845936,"seconds":1989.63}
+{"mode":"progress","q":27,"n":6,"checked":543670272,"total":1549845936,"seconds":2019.7}
+{"mode":"progress","q":27,"n":6,"checked":555393024,"total":1549845936,"seconds":2049.86}
+{"mode":"progress","q":27,"n":6,"checked":567042048,"total":1549845936,"seconds":2079.96}
+{"mode":"progress","q":27,"n":6,"checked":578764800,"total":1549845936,"seconds":2110.15}
+{"mode":"progress","q":27,"n":6,"checked":590497200,"total":1549845936,"seconds":2140.21}
+{"mode":"progress","q":27,"n":6,"checked":602146224,"total":1549845936,"seconds":2170.31}
+{"mode":"progress","q":27,"n":6,"checked":613647792,"total":1549845936,"seconds":2200.41}
+{"mode":"progress","q":27,"n":6,"checked":625296816,"total":1549845936,"seconds":2230.55}
+{"mode":"progress","q":27,"n":6,"checked":637167024,"total":1549845936,"seconds":2260.59}
+{"mode":"progress","q":27,"n":6,"checked":649037232,"total":1549845936,"seconds":2290.63}
+{"mode":"progress","q":27,"n":6,"checked":660907440,"total":1549845936,"seconds":2320.74}
+{"mode":"progress","q":27,"n":6,"checked":672777648,"total":1549845936,"seconds":2350.77}
+{"mode":"progress","q":27,"n":6,"checked":684647856,"total":1549845936,"seconds":2380.79}
+{"mode":"progress","q":27,"n":6,"checked":696518064,"total":1549845936,"seconds":2410.94}
+{"mode":"progress","q":27,"n":6,"checked":708314544,"total":1549845936,"seconds":2440.96}
+{"mode":"progress","q":27,"n":6,"checked":720184752,"total":1549845936,"seconds":2470.98}
+{"mode":"progress","q":27,"n":6,"checked":731981232,"total":1549845936,"seconds":2501.14}
+{"mode":"progress","q":27,"n":6,"checked":743925168,"total":1549845936,"seconds":2531.31}
+{"mode":"progress","q":27,"n":6,"checked":755721648,"total":1549845936,"seconds":2561.38}
+{"mode":"progress","q":27,"n":6,"checked":767444400,"total":1549845936,"seconds":2591.49}
+{"mode":"progress","q":27,"n":6,"checked":779204016,"total":1549845936,"seconds":2621.51}
+{"mode":"progress","q":27,"n":6,"checked":791147952,"total":1549845936,"seconds":2651.68}
+{"mode":"progress","q":27,"n":6,"checked":803018160,"total":1549845936,"seconds":2681.75}
+{"mode":"progress","q":27,"n":6,"checked":814814640,"total":1549845936,"seconds":2711.76}
+{"mode":"progress","q":27,"n":6,"checked":826684848,"total":1549845936,"seconds":2741.81}
+{"mode":"progress","q":27,"n":6,"checked":838481328,"total":1549845936,"seconds":2771.86}
+{"mode":"progress","q":27,"n":6,"checked":850351536,"total":1549845936,"seconds":2802.04}
+{"mode":"progress","q":27,"n":6,"checked":862148016,"total":1549845936,"seconds":2832.15}
+{"mode":"progress","q":27,"n":6,"checked":874018224,"total":1549845936,"seconds":2862.17}
+{"mode":"progress","q":27,"n":6,"checked":885814704,"total":1549845936,"seconds":2892.22}
+{"mode":"progress","q":27,"n":6,"checked":897684912,"total":1549845936,"seconds":2922.31}
+{"mode":"progress","q":27,"n":6,"checked":909555120,"total":1549845936,"seconds":2952.37}
+{"mode":"progress","q":27,"n":6,"checked":921425328,"total":1549845936,"seconds":2982.51}
+{"mode":"progress","q":27,"n":6,"checked":933442992,"total":1549845936,"seconds":3012.63}
+{"mode":"progress","q":27,"n":6,"checked":945386928,"total":1549845936,"seconds":3042.72}
+{"mode":"progress","q":27,"n":6,"checked":957404592,"total":1549845936,"seconds":3072.9}
+{"mode":"progress","q":27,"n":6,"checked":969348528,"total":1549845936,"seconds":3103.05}
+{"mode":"progress","q":27,"n":6,"checked":981292464,"total":1549845936,"seconds":3133.05}
+{"mode":"progress","q":27,"n":6,"checked":993236400,"total":1549845936,"seconds":3163.14}
+{"mode":"progress","q":27,"n":6,"checked":1005032880,"total":1549845936,"seconds":3193.18}
+{"mode":"progress","q":27,"n":6,"checked":1016829360,"total":1549845936,"seconds":3223.26}
+{"mode":"progress","q":27,"n":6,"checked":1028773296,"total":1549845936,"seconds":3253.38}
+{"mode":"progress","q":27,"n":6,"checked":1040790960,"total":1549845936,"seconds":3283.48}
+{"mode":"progress","q":27,"n":6,"checked":1052661168,"total":1549845936,"seconds":3313.62}
+{"mode":"progress","q":27,"n":6,"checked":1064678832,"total":1549845936,"seconds":3343.71}
+{"mode":"progress","q":27,"n":6,"checked":1076622768,"total":1549845936,"seconds":3373.89}
+{"mode":"progress","q":27,"n":6,"checked":1088566704,"total":1549845936,"seconds":3403.93}
+{"mode":"progress","q":27,"n":6,"checked":1100510640,"total":1549845936,"seconds":3434.08}
+{"mode":"progress","q":27,"n":6,"checked":1112528304,"total":1549845936,"seconds":3464.23}
+{"mode":"progress","q":27,"n":6,"checked":1124472240,"total":1549845936,"seconds":3494.32}
+{"mode":"progress","q":27,"n":6,"checked":1136416176,"total":1549845936,"seconds":3524.42}
+{"mode":"progress","q":27,"n":6,"checked":1148286384,"total":1549845936,"seconds":3554.45}
+{"mode":"progress","q":27,"n":6,"checked":1160156592,"total":1549845936,"seconds":3584.53}
+{"mode":"progress","q":27,"n":6,"checked":1172211120,"total":1549845936,"seconds":3614.69}
+{"mode":"progress","q":27,"n":6,"checked":1184007600,"total":1549845936,"seconds":3644.71}
+{"mode":"progress","q":27,"n":6,"checked":1195877808,"total":1549845936,"seconds":3674.82}
+{"mode":"progress","q":27,"n":6,"checked":1207674288,"total":1549845936,"seconds":3704.85}
+{"mode":"progress","q":27,"n":6,"checked":1219544496,"total":1549845936,"seconds":3734.93}
+{"mode":"progress","q":27,"n":6,"checked":1231340976,"total":1549845936,"seconds":3764.94}
+{"mode":"progress","q":27,"n":6,"checked":1243063728,"total":1549845936,"seconds":3795.13}
+{"mode":"progress","q":27,"n":6,"checked":1254860208,"total":1549845936,"seconds":3825.22}
+{"mode":"progress","q":27,"n":6,"checked":1266693552,"total":1549845936,"seconds":3855.29}
+{"mode":"progress","q":27,"n":6,"checked":1278637488,"total":1549845936,"seconds":3885.38}
+{"mode":"progress","q":27,"n":6,"checked":1290507696,"total":1549845936,"seconds":3915.54}
+{"mode":"progress","q":27,"n":6,"checked":1302451632,"total":1549845936,"seconds":3945.68}
+{"mode":"progress","q":27,"n":6,"checked":1314321840,"total":1549845936,"seconds":3975.81}
+{"mode":"progress","q":27,"n":6,"checked":1326192048,"total":1549845936,"seconds":4005.86}
+{"mode":"progress","q":27,"n":6,"checked":1338062256,"total":1549845936,"seconds":4035.96}
+{"mode":"progress","q":27,"n":6,"checked":1350006192,"total":1549845936,"seconds":4066.14}
+{"mode":"progress","q":27,"n":6,"checked":1361876400,"total":1549845936,"seconds":4096.2}
+{"mode":"progress","q":27,"n":6,"checked":1373746608,"total":1549845936,"seconds":4126.25}
+{"mode":"progress","q":27,"n":6,"checked":1385690544,"total":1549845936,"seconds":4156.42}
+{"mode":"progress","q":27,"n":6,"checked":1397560752,"total":1549845936,"seconds":4186.51}
+{"mode":"progress","q":27,"n":6,"checked":1409578416,"total":1549845936,"seconds":4216.7}
+{"mode":"progress","q":27,"n":6,"checked":1421448624,"total":1549845936,"seconds":4246.7}
+{"mode":"progress","q":27,"n":6,"checked":1433392560,"total":1549845936,"seconds":4276.86}
+{"mode":"progress","q":27,"n":6,"checked":1445336496,"total":1549845936,"seconds":4307.02}
+{"mode":"progress","q":27,"n":6,"checked":1457317296,"total":1549845936,"seconds":4337.21}
+{"mode":"progress","q":27,"n":6,"checked":1469261232,"total":1549845936,"seconds":4367.24}
+{"mode":"progress","q":27,"n":6,"checked":1480983984,"total":1549845936,"seconds":4397.3}
+{"mode":"progress","q":27,"n":6,"checked":1492927920,"total":1549845936,"seconds":4427.46}
+{"mode":"progress","q":27,"n":6,"checked":1504798128,"total":1549845936,"seconds":4457.58}
+{"mode":"progress","q":27,"n":6,"checked":1516742064,"total":1549845936,"seconds":4487.66}
+{"mode":"progress","q":27,"n":6,"checked":1528612272,"total":1549845936,"seconds":4517.84}
+{"mode":"progress","q":27,"n":6,"checked":1540556208,"total":1549845936,"seconds":4548.01}
+{"mode":"full","q":27,"n":6,"records":10762819,"checked":1549845936,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":4571.72,"threads":8}
+{"mode":"coverage","q":27,"n":6,"records":10762819,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":22.5631}
+{"mode":"complete","q":27,"n":6,"seconds":4594.28}
+UTC pair finished: 2026-10-09T13:24:02Z
+UTC batch finished: 2026-10-09T13:24:02Z

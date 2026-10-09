@@ -1,0 +1,7 @@
+p 223
+e 1
+m 7
+N 7
+cells 8028
+modulus: x^N = sum_{j<N} red[j] x^j over F_p; red_low_to_high: 125 0 106 0 0 0 0
+record: N little-endian uint16 digits (coefficient of x^0 first) of xi in F_p[x]/(x^N - sum red[j]x^j); one record per cell

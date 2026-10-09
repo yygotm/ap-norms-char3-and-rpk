@@ -1,0 +1,4 @@
+{"mode":"header","q":3,"n":7,"records":157,"witnesses":157,"bytes":1256,"polynomial_primitive":true,"prime_divisors":[2,1093]}
+{"mode":"full","q":3,"n":7,"records":157,"checked":157,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":0.0154908,"threads":8}
+{"mode":"coverage","q":3,"n":7,"records":157,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.00477701}
+{"mode":"complete","q":3,"n":7,"seconds":0.0203452}

@@ -1,0 +1,5 @@
+{"mode":"header","q":27,"n":6,"records":10762819,"witnesses":1549845936,"bytes":6242435020,"polynomial_primitive":true,"prime_divisors":[2,7,13,19,37,757]}
+{"mode":"sample","region":"head","seed":202610092056,"q":27,"n":6,"checked":30000,"failed":0,"failure_codes":[0,0,0,0,0,0],"threads":8,"load_seconds":0.0343491,"check_seconds":0.182775,"projected_full_seconds":9442.44}
+{"mode":"sample","region":"tail","seed":202610092056,"q":27,"n":6,"checked":30000,"failed":0,"failure_codes":[0,0,0,0,0,0],"threads":8,"load_seconds":0.0399632,"check_seconds":0.181643,"projected_full_seconds":9383.97}
+{"mode":"sample","region":"random","seed":202610092056,"q":27,"n":6,"checked":30000,"failed":0,"failure_codes":[0,0,0,0,0,0],"threads":8,"load_seconds":4.18274,"check_seconds":0.171762,"projected_full_seconds":8873.49}
+{"mode":"estimate","total":1549845936,"sample_checked":90000,"max_region_projection_seconds":9442.44}

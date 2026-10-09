@@ -1,0 +1,6 @@
+{"mode":"header","q":9,"n":8,"records":1345633,"witnesses":21530128,"bytes":91503044,"polynomial_primitive":true,"prime_divisors":[2,5,17,41,193]}
+{"mode":"progress","q":9,"n":8,"checked":8728576,"total":21530128,"seconds":30.0212}
+{"mode":"progress","q":9,"n":8,"checked":19846672,"total":21530128,"seconds":60.0351}
+{"mode":"full","q":9,"n":8,"records":1345633,"checked":21530128,"failed":0,"failure_codes":[0,0,0,0,0,0],"seconds":64.2475,"threads":8}
+{"mode":"coverage","q":9,"n":8,"records":1345633,"invalid_j":0,"duplicate_orbits":0,"uncovered_elements":0,"uncovered_orbits":0,"seconds":0.526795}
+{"mode":"complete","q":9,"n":8,"seconds":64.775}

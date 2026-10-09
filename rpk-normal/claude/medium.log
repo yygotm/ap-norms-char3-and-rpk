@@ -1,0 +1,9 @@
+-- p e m = 13 1 7
+q=13 m=7: valid_xi=10458084 cells=26 covered=26 uncovered=0 trace_not_in_Fq=0 time=2.5s
+-- p e m = 5 1 12
+q=5 m=12: valid_xi=20736000 cells=10 covered=10 uncovered=0 trace_not_in_Fq=0 time=53.8s
+-- p e m = 11 1 8
+q=11 m=8: valid_xi=28108800 cells=44 covered=44 uncovered=0 trace_not_in_Fq=0 time=14.2s
+-- p e m = 2 4 7
+q=16 m=7: valid_xi=66382848 cells=64 covered=64 uncovered=0 trace_not_in_Fq=0 time=35.5s
+== done

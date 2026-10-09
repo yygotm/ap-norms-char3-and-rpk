@@ -1,0 +1,3 @@
+-- 256_7
+p=2 e=8 m=7 (q^m): cells=16384 found=16384 samples=6716556 successes=18277 nonFq=0 time=367.9s ALL_COVERED
+== done

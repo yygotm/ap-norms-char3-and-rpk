@@ -1,0 +1,7 @@
+q=3 n=6: records=67 bad=0 uncovered_beta=0 -> CERTIFIED
+q=3 n=7: records=157 bad=0 uncovered_beta=0 -> CERTIFIED
+q=3 n=8: records=423 bad=0 uncovered_beta=0 -> CERTIFIED
+q=3 n=10: records=2979 bad=0 uncovered_beta=0 -> CERTIFIED
+q=3 n=12: records=22217 bad=0 uncovered_beta=0 -> CERTIFIED
+q=9 n=6: records=22217 bad=0 uncovered_beta=0 -> CERTIFIED
+q=9 n=8: records=1345633 bad=0 uncovered_beta=0 -> CERTIFIED

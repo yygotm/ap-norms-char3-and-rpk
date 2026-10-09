@@ -1,0 +1,41 @@
+{
+  "B_checked": 171,
+  "B_failed": 0,
+  "method": "gcd(X^m-1, reversed Frobenius conjugates) over extension field",
+  "A_2_8_total": 256,
+  "A_2_8_elements": [
+    15,
+    44,
+    63,
+    85,
+    92,
+    109,
+    163,
+    219
+  ],
+  "A_2_8_inverse_trace": {
+    "0": 0,
+    "1": 8
+  },
+  "theorem_counterexample": {
+    "q": 4,
+    "m": 64,
+    "r": 3,
+    "k": 1,
+    "g": "X-1",
+    "factors": [
+      3,
+      5,
+      17,
+      257,
+      641,
+      65537,
+      274177,
+      6700417,
+      67280421310721
+    ],
+    "lhs": 288230376151711744,
+    "rhs": 1536
+  },
+  "elapsed_s": 2.6862555999978213
+}

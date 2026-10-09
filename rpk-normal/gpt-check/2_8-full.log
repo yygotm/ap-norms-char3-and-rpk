@@ -1,0 +1,12 @@
+UTC started: 2026-10-09T19:27:27Z
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+f57f81ab0e4646b1f3120ff00c4fd675f21405e8d92868d533f1190b220b768d  rpk-normal/gpt-check/check.cpp
+602462cc8e0e7d6c8a2d50a4e57e872d7647168b8a24dbc5c910e650aa97fb1f  rpk-normal/gpt-check/check
+948a41d4569d1c2762e0d12a4958b2e649e6db1c0924a36f34507f56f386f54d  rpk-normal/gpt-check/cases.txt
+START mode=full pair=2_8 threads=8
+MOD A 2_8 red=1,0,0,1,0,1,0,1,
+RESULT A 2_8 mode=full field=256 potential=85 scanned=85 primitive=64 orbits=8 normal=8 cells=2 missing=1 bad=0 setup_s=0.000282 loop_s=0.001134 total_s=0.001469 estimate_s=0.001416
+COUNTS A 2_8 cells=0,8, traces=0,8,
+MISSING A 2_8 a_id=0 b_id=1
+COMPLETE mode=full pair=2_8 elapsed_s=0.001540
+UTC completed: 2026-10-09T19:27:27Z

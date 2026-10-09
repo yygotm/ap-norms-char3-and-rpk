@@ -1,0 +1,15 @@
+q=3 n=2: beta reps=3 fails=0 mean_scan=2.7 max_scan=4 time=0.0s
+q=3 n=3: beta reps=5 fails=0 mean_scan=3.8 max_scan=11 time=0.0s
+q=3 n=4: beta reps=13 fails=0 mean_scan=6.7 max_scan=26 time=0.1s
+q=3 n=5: beta reps=25 fails=0 mean_scan=4.8 max_scan=16 time=0.0s
+q=3 n=6: beta reps=67 fails=0 mean_scan=9.0 max_scan=45 time=0.0s
+q=3 n=7: beta reps=157 fails=0 mean_scan=3.6 max_scan=18 time=0.0s
+q=3 n=8: beta reps=423 fails=0 mean_scan=11.0 max_scan=56 time=0.0s
+q=3 n=9: beta reps=1097 fails=0 mean_scan=4.8 max_scan=32 time=0.0s
+q=3 n=10: beta reps=2979 fails=0 mean_scan=7.1 max_scan=71 time=0.0s
+q=3 n=12: beta reps=22217 fails=0 mean_scan=15.7 max_scan=172 time=0.3s
+q=9 n=2: beta reps=13 fails=13 mean_scan=80.0 max_scan=80 time=0.0s
+q=9 n=3: beta reps=67 fails=7 mean_scan=393.3 max_scan=728 time=0.0s
+q=9 n=4: beta reps=423 fails=0 mean_scan=403.7 max_scan=1341 time=0.0s
+q=9 n=6: beta reps=22217 fails=0 mean_scan=567.2 max_scan=2448 time=0.4s
+q=27 n=2: beta reps=67 fails=67 mean_scan=728.0 max_scan=728 time=0.1s

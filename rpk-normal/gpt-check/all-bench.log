@@ -1,0 +1,107 @@
+UTC started: 2026-10-09T19:28:25Z
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+f57f81ab0e4646b1f3120ff00c4fd675f21405e8d92868d533f1190b220b768d  rpk-normal/gpt-check/check.cpp
+602462cc8e0e7d6c8a2d50a4e57e872d7647168b8a24dbc5c910e650aa97fb1f  rpk-normal/gpt-check/check
+948a41d4569d1c2762e0d12a4958b2e649e6db1c0924a36f34507f56f386f54d  rpk-normal/gpt-check/cases.txt
+START mode=bench pair=all threads=8
+MOD A 2_8 red=1,0,0,1,0,1,0,1,
+RESULT A 2_8 mode=bench field=256 potential=85 scanned=85 primitive=64 orbits=8 normal=8 cells=2 missing=1 bad=0 setup_s=0.000314 loop_s=0.001160 total_s=0.001498 estimate_s=0.001474
+MOD A 2_10 red=1,0,1,1,0,0,0,1,1,1,
+RESULT A 2_10 mode=bench field=1024 potential=341 scanned=341 primitive=300 orbits=30 normal=80 cells=2 missing=0 bad=0 setup_s=0.000036 loop_s=0.000042 total_s=0.000082 estimate_s=0.000078
+MOD A 2_12 red=1,1,0,0,1,0,0,0,1,1,0,1,
+RESULT A 2_12 mode=bench field=4096 potential=1365 scanned=1365 primitive=576 orbits=48 normal=132 cells=2 missing=0 bad=0 setup_s=0.000137 loop_s=0.000039 total_s=0.000180 estimate_s=0.000176
+MOD A 2_14 red=1,0,0,0,1,0,1,1,1,1,1,1,1,1,
+RESULT A 2_14 mode=bench field=16384 potential=5461 scanned=5461 primitive=5292 orbits=378 normal=1050 cells=2 missing=0 bad=0 setup_s=0.000089 loop_s=0.000188 total_s=0.000281 estimate_s=0.000277
+MOD A 2_16 red=1,0,1,0,0,0,0,1,1,0,1,0,0,0,0,1,
+RESULT A 2_16 mode=bench field=65536 potential=21845 scanned=21845 primitive=16384 orbits=1024 normal=4048 cells=2 missing=0 bad=0 setup_s=0.000591 loop_s=0.000794 total_s=0.001390 estimate_s=0.001384
+MOD A 2_18 red=1,1,1,1,0,1,1,0,0,0,1,1,0,1,0,0,0,1,
+RESULT A 2_18 mode=bench field=262144 potential=87381 scanned=87381 primitive=46656 orbits=2592 normal=8622 cells=2 missing=0 bad=0 setup_s=0.001290 loop_s=0.000719 total_s=0.002014 estimate_s=0.002009
+MOD A 4_7 red=1,1,1,0,0,1,1,1,0,1,0,0,1,0,
+RESULT A 4_7 mode=bench field=16384 potential=5461 scanned=5461 primitive=5292 orbits=756 normal=1260 cells=4 missing=0 bad=0 setup_s=0.000071 loop_s=0.000243 total_s=0.000317 estimate_s=0.000314
+MOD A 4_8 red=1,0,0,0,1,0,0,0,1,0,1,1,0,1,1,1,
+RESULT A 4_8 mode=bench field=65536 potential=21845 scanned=21845 primitive=16384 orbits=2048 normal=3136 cells=4 missing=0 bad=0 setup_s=0.000376 loop_s=0.000579 total_s=0.000958 estimate_s=0.000955
+MOD A 4_9 red=1,0,0,1,1,1,0,0,1,0,0,1,0,0,1,0,1,0,
+RESULT A 4_9 mode=bench field=262144 potential=87381 scanned=87381 primitive=46656 orbits=5184 normal=18900 cells=4 missing=0 bad=0 setup_s=0.001158 loop_s=0.000786 total_s=0.001950 estimate_s=0.001944
+MOD A 4_10 red=1,1,0,1,1,1,1,1,0,1,1,0,1,0,1,1,0,1,0,1,
+RESULT A 4_10 mode=bench field=1048576 potential=349525 scanned=300000 primitive=206032 orbits=29520 normal=49210 cells=4 missing=0 bad=0 setup_s=0.005673 loop_s=0.006764 total_s=0.012460 estimate_s=0.013554
+MOD A 4_12 red=1,1,0,0,0,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,0,1,0,
+RESULT A 4_12 mode=bench field=16777216 potential=5592405 scanned=300000 primitive=118542 orbits=31614 normal=120396 cells=4 missing=0 bad=0 setup_s=0.086653 loop_s=0.008242 total_s=0.094910 estimate_s=0.240291
+MOD A 5_8 red=3,2,3,3,2,2,1,4,
+RESULT A 5_8 mode=bench field=390625 potential=130208 scanned=130208 primitive=59904 orbits=7488 normal=22272 cells=10 missing=0 bad=0 setup_s=0.004476 loop_s=0.001684 total_s=0.006173 estimate_s=0.006160
+MOD A 5_10 red=3,1,4,0,0,2,1,2,0,0,
+RESULT A 5_10 mode=bench field=9765625 potential=3255208 scanned=300000 primitive=134287 orbits=38102 normal=96780 cells=10 missing=0 bad=0 setup_s=0.125813 loop_s=0.011957 total_s=0.137788 estimate_s=0.255553
+MOD A 5_12 red=3,4,1,0,4,0,1,4,0,2,2,2,
+RESULT A 5_12 mode=bench field=244140625 potential=81380208 scanned=300000 primitive=76415 orbits=22418 normal=93072 cells=10 missing=0 bad=0 setup_s=3.598073 loop_s=0.014706 total_s=3.612797 estimate_s=7.587255
+MOD A 7_7 red=5,4,3,3,2,0,0,
+RESULT A 7_7 mode=bench field=823543 potential=274514 scanned=274514 primitive=132496 orbits=18928 normal=16268 cells=7 missing=0 bad=0 setup_s=0.009894 loop_s=0.002151 total_s=0.012062 estimate_s=0.012045
+MOD A 7_8 red=4,4,6,0,1,2,3,1,
+RESULT A 7_8 mode=bench field=5764801 potential=1921600 scanned=300000 primitive=119815 orbits=35723 normal=64856 cells=7 missing=0 bad=0 setup_s=0.073793 loop_s=0.007537 total_s=0.081347 estimate_s=0.122071
+MOD A 7_9 red=3,0,1,4,0,5,5,3,3,
+RESULT A 7_9 mode=bench field=40353607 potential=13451202 scanned=300000 primitive=92059 orbits=29410 normal=82017 cells=7 missing=0 bad=0 setup_s=0.550534 loop_s=0.009203 total_s=0.559753 estimate_s=0.963183
+RESULT B 7_12 mode=bench total=7 checked=7 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003113 loop_s=0.000580 total_s=0.003709 estimate_s=0.003693
+MOD A 8_8 red=1,0,1,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,
+RESULT A 8_8 mode=bench field=16777216 potential=5592405 scanned=300000 primitive=118542 orbits=38299 normal=33992 cells=48 missing=0 bad=0 setup_s=0.080724 loop_s=0.009112 total_s=0.089854 estimate_s=0.250591
+MOD A 11_8 red=4,5,8,4,1,3,0,10,
+RESULT A 11_8 mode=bench field=214358881 potential=71452960 scanned=300000 primitive=117933 orbits=40579 normal=52280 cells=44 missing=0 bad=0 setup_s=2.974095 loop_s=0.010481 total_s=2.984590 estimate_s=5.470376
+RESULT B 11_10 mode=bench total=44 checked=44 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003153 loop_s=0.001304 total_s=0.004472 estimate_s=0.004457
+MOD A 13_7 red=11,12,11,8,3,5,8,
+RESULT A 13_7 mode=bench field=62748517 potential=20916172 scanned=300000 primitive=150061 orbits=53107 normal=28231 cells=26 missing=0 bad=0 setup_s=0.960064 loop_s=0.009543 total_s=0.969627 estimate_s=1.625437
+RESULT B 13_8 mode=bench total=26 checked=26 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003352 loop_s=0.000900 total_s=0.004266 estimate_s=0.004252
+MOD A 16_7 red=1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1,1,0,1,1,0,0,
+RESULT A 16_7 mode=bench field=268435456 potential=89478485 scanned=300000 primitive=222490 orbits=80173 normal=35448 cells=64 missing=0 bad=0 setup_s=1.625540 loop_s=0.033236 total_s=1.658793 estimate_s=11.538501
+RESULT B 16_8 mode=bench total=64 checked=64 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003717 loop_s=0.000552 total_s=0.004285 estimate_s=0.004269
+RESULT B 17_8 mode=bench total=136 checked=136 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003941 loop_s=0.001139 total_s=0.005094 estimate_s=0.005080
+RESULT B 19_7 mode=bench total=38 checked=38 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003566 loop_s=0.000944 total_s=0.004522 estimate_s=0.004510
+RESULT B 19_8 mode=bench total=38 checked=38 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003310 loop_s=0.001304 total_s=0.004627 estimate_s=0.004615
+RESULT B 23_8 mode=bench total=230 checked=230 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003337 loop_s=0.001196 total_s=0.004544 estimate_s=0.004533
+RESULT B 25_7 mode=bench total=100 checked=100 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003885 loop_s=0.002081 total_s=0.005977 estimate_s=0.005966
+RESULT B 25_8 mode=bench total=100 checked=100 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003590 loop_s=0.003315 total_s=0.006921 estimate_s=0.006905
+RESULT B 29_8 mode=bench total=348 checked=348 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003796 loop_s=0.002572 total_s=0.006420 estimate_s=0.006368
+RESULT B 31_7 mode=bench total=124 checked=124 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003505 loop_s=0.000630 total_s=0.004147 estimate_s=0.004135
+RESULT B 32_8 mode=bench total=960 checked=960 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006998 loop_s=0.004466 total_s=0.011477 estimate_s=0.011464
+RESULT B 37_7 mode=bench total=148 checked=148 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003400 loop_s=0.001093 total_s=0.004506 estimate_s=0.004493
+RESULT B 37_8 mode=bench total=148 checked=148 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003446 loop_s=0.002160 total_s=0.005621 estimate_s=0.005606
+RESULT B 41_8 mode=bench total=656 checked=656 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004030 loop_s=0.004819 total_s=0.008861 estimate_s=0.008849
+RESULT B 43_7 mode=bench total=258 checked=258 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003357 loop_s=0.001064 total_s=0.004431 estimate_s=0.004420
+RESULT B 43_8 mode=bench total=258 checked=258 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003652 loop_s=0.002337 total_s=0.005999 estimate_s=0.005989
+RESULT B 47_8 mode=bench total=1034 checked=1034 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004216 loop_s=0.008556 total_s=0.012787 estimate_s=0.012772
+RESULT B 49_7 mode=bench total=392 checked=392 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004199 loop_s=0.005469 total_s=0.009683 estimate_s=0.009667
+RESULT B 49_8 mode=bench total=392 checked=392 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004072 loop_s=0.007690 total_s=0.011776 estimate_s=0.011762
+RESULT B 53_8 mode=bench total=1272 checked=1272 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004280 loop_s=0.010532 total_s=0.014827 estimate_s=0.014811
+RESULT B 59_8 mode=bench total=1652 checked=1652 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004806 loop_s=0.013857 total_s=0.018679 estimate_s=0.018663
+RESULT B 61_7 mode=bench total=488 checked=488 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003703 loop_s=0.001760 total_s=0.005478 estimate_s=0.005463
+RESULT B 64_7 mode=bench total=768 checked=768 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.005913 loop_s=0.004108 total_s=0.010037 estimate_s=0.010020
+RESULT B 67_7 mode=bench total=670 checked=670 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003932 loop_s=0.002977 total_s=0.006922 estimate_s=0.006909
+RESULT B 73_7 mode=bench total=584 checked=584 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003530 loop_s=0.001652 total_s=0.005193 estimate_s=0.005182
+RESULT B 79_7 mode=bench total=948 checked=948 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003886 loop_s=0.005974 total_s=0.009877 estimate_s=0.009860
+RESULT B 83_8 mode=bench total=3320 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=320 duplicates=0 setup_s=0.006273 loop_s=0.034922 total_s=0.041211 estimate_s=0.044920
+RESULT B 89_8 mode=bench total=3560 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=560 duplicates=0 setup_s=0.006631 loop_s=0.030621 total_s=0.037269 estimate_s=0.042967
+RESULT B 97_7 mode=bench total=1552 checked=1552 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004270 loop_s=0.006294 total_s=0.010580 estimate_s=0.010564
+RESULT B 103_7 mode=bench total=1648 checked=1648 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004778 loop_s=0.008697 total_s=0.013493 estimate_s=0.013476
+RESULT B 109_7 mode=bench total=1308 checked=1308 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004634 loop_s=0.007529 total_s=0.012178 estimate_s=0.012163
+RESULT B 121_7 mode=bench total=1936 checked=1936 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006194 loop_s=0.033368 total_s=0.039577 estimate_s=0.039562
+RESULT B 127_7 mode=bench total=1524 checked=1524 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.005206 loop_s=0.010630 total_s=0.015852 estimate_s=0.015836
+RESULT B 139_7 mode=bench total=3058 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=58 duplicates=0 setup_s=0.005798 loop_s=0.018961 total_s=0.024775 estimate_s=0.025126
+RESULT B 151_7 mode=bench total=3020 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=20 duplicates=0 setup_s=0.005627 loop_s=0.015105 total_s=0.020748 estimate_s=0.020833
+RESULT B 169_7 mode=bench total=4056 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=1056 duplicates=0 setup_s=0.009583 loop_s=0.050306 total_s=0.059905 estimate_s=0.077596
+RESULT B 181_7 mode=bench total=2896 checked=2896 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.005516 loop_s=0.020846 total_s=0.026400 estimate_s=0.026361
+RESULT B 193_7 mode=bench total=6176 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=3176 duplicates=0 setup_s=0.007977 loop_s=0.012629 total_s=0.020622 estimate_s=0.033975
+RESULT B 199_7 mode=bench total=3980 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=980 duplicates=0 setup_s=0.006264 loop_s=0.024568 total_s=0.030850 estimate_s=0.038858
+RESULT B 211_7 mode=bench total=5064 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=2064 duplicates=0 setup_s=0.007765 loop_s=0.018097 total_s=0.025879 estimate_s=0.038313
+RESULT B 223_7 mode=bench total=8028 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=5028 duplicates=0 setup_s=0.008113 loop_s=0.020299 total_s=0.028431 estimate_s=0.062434
+RESULT B 256_7 mode=bench total=16384 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=13384 duplicates=0 setup_s=0.073060 loop_s=0.031027 total_s=0.104102 estimate_s=0.242509
+RESULT B 277_7 mode=bench total=12188 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=9188 duplicates=0 setup_s=0.010788 loop_s=0.017989 total_s=0.028794 estimate_s=0.083869
+RESULT B 307_7 mode=bench total=9824 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=6824 duplicates=0 setup_s=0.009816 loop_s=0.020542 total_s=0.030372 estimate_s=0.077083
+RESULT B 337_7 mode=bench total=16176 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=13176 duplicates=0 setup_s=0.014195 loop_s=0.016265 total_s=0.030479 estimate_s=0.101897
+RESULT B 361_7 mode=bench total=11552 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=8552 duplicates=0 setup_s=0.017092 loop_s=0.075753 total_s=0.092859 estimate_s=0.308790
+RESULT B 379_7 mode=bench total=13644 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=10644 duplicates=0 setup_s=0.013457 loop_s=0.021037 total_s=0.034511 estimate_s=0.109134
+RESULT B 421_7 mode=bench total=20208 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=17208 duplicates=0 setup_s=0.017479 loop_s=0.017857 total_s=0.035352 estimate_s=0.137767
+RESULT B 433_7 mode=bench total=20784 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=17784 duplicates=0 setup_s=0.015804 loop_s=0.020126 total_s=0.035947 estimate_s=0.155237
+RESULT B 463_7 mode=bench total=27780 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=24780 duplicates=0 setup_s=0.023077 loop_s=0.020936 total_s=0.044029 estimate_s=0.216943
+RESULT B 529_7 mode=bench total=42320 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=39320 duplicates=0 setup_s=0.053506 loop_s=0.089024 total_s=0.142559 estimate_s=1.309343
+RESULT B 547_7 mode=bench total=39384 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=36384 duplicates=0 setup_s=0.028264 loop_s=0.019381 total_s=0.047660 estimate_s=0.282693
+RESULT B 631_7 mode=bench total=30288 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=27288 duplicates=0 setup_s=0.024801 loop_s=0.024395 total_s=0.049214 estimate_s=0.271090
+RESULT B 673_7 mode=bench total=64608 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=61608 duplicates=0 setup_s=0.043125 loop_s=0.017545 total_s=0.060690 estimate_s=0.420967
+RESULT B 883_7 mode=bench total=74172 checked=3000 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=71172 duplicates=0 setup_s=0.056301 loop_s=0.031333 total_s=0.087654 estimate_s=0.830975
+COMPLETE mode=bench pair=all elapsed_s=11.888684
+UTC completed: 2026-10-09T19:28:37Z

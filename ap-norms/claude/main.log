@@ -1,0 +1,11 @@
+exit=0 q=9 n=6: beta reps=22217 fails=0 mean_scan=567.2 max_scan=2448 time=0.4s
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.37
+	Maximum resident set size (kbytes): 7784
+start 2026-10-09 20:21:05
+exit=0 q=9 n=8: beta reps=1345633 fails=0 mean_scan=631.9 max_scan=3141 time=29.7s
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.69
+	Maximum resident set size (kbytes): 505772
+exit=0 q=27 n=6: beta reps=10762819 fails=0 mean_scan=5974.6 max_scan=22357 time=808.0s
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:28.17
+	Maximum resident set size (kbytes): 4541448
+end 2026-10-09 20:35:03

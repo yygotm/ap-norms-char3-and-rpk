@@ -1,0 +1,40 @@
+== selftests
+selftest p=2 e=1 m=7: normal=49 1-normal=49
+selftest p=2 e=2 m=3: normal=27 1-normal=27
+== runs
+-- p e m = 2 1 8
+q=2 m=8: valid_xi=64 cells=2 covered=1 uncovered=1 trace_not_in_Fq=0 time=0.0s
+  UNCOVERED a_idx=0 (0=zero) b_exp=0
+-- p e m = 2 1 10
+q=2 m=10: valid_xi=300 cells=2 covered=2 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 1 12
+q=2 m=12: valid_xi=576 cells=2 covered=2 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 1 14
+q=2 m=14: valid_xi=5292 cells=2 covered=2 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 1 16
+q=2 m=16: valid_xi=16384 cells=2 covered=2 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 1 18
+q=2 m=18: valid_xi=46656 cells=2 covered=2 uncovered=0 trace_not_in_Fq=0 time=0.1s
+-- p e m = 2 2 7
+q=4 m=7: valid_xi=5292 cells=4 covered=4 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 2 8
+q=4 m=8: valid_xi=16384 cells=4 covered=4 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 2 9
+q=4 m=9: valid_xi=46656 cells=4 covered=4 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 2 2 10
+q=4 m=10: valid_xi=240000 cells=4 covered=4 uncovered=0 trace_not_in_Fq=0 time=0.1s
+-- p e m = 5 1 8
+q=5 m=8: valid_xi=59904 cells=10 covered=10 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 7 1 7
+q=7 m=7: valid_xi=132496 cells=7 covered=7 uncovered=0 trace_not_in_Fq=0 time=0.0s
+-- p e m = 7 1 8
+q=7 m=8: valid_xi=768000 cells=7 covered=7 uncovered=0 trace_not_in_Fq=0 time=0.3s
+-- p e m = 2 2 12
+q=4 m=12: valid_xi=2211840 cells=4 covered=4 uncovered=0 trace_not_in_Fq=0 time=7.6s
+-- p e m = 5 1 10
+q=5 m=10: valid_xi=1456000 cells=10 covered=10 uncovered=0 trace_not_in_Fq=0 time=0.9s
+-- p e m = 2 3 8
+q=8 m=8: valid_xi=2211840 cells=48 covered=48 uncovered=0 trace_not_in_Fq=0 time=7.4s
+-- p e m = 7 1 9
+q=7 m=9: valid_xi=4129056 cells=7 covered=7 uncovered=0 trace_not_in_Fq=0 time=2.1s
+== done

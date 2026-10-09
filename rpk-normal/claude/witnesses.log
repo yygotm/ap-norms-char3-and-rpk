@@ -1,0 +1,115 @@
+-- 13_8
+p=13 e=1 m=8 (q^m): cells=26 found=26 samples=872 successes=69 nonFq=0 time=0.0s ALL_COVERED
+-- 19_7
+p=19 e=1 m=7 (q^m): cells=38 found=38 samples=10254 successes=191 nonFq=0 time=0.0s ALL_COVERED
+-- 16_8
+p=2 e=4 m=8 (q^m): cells=64 found=64 samples=819 successes=36 nonFq=0 time=0.1s ALL_COVERED
+-- 25_7
+p=5 e=2 m=7 (q^m): cells=100 found=100 samples=14979 successes=293 nonFq=0 time=0.0s ALL_COVERED
+-- 17_8
+p=17 e=1 m=8 (q^m): cells=136 found=136 samples=6710 successes=540 nonFq=0 time=0.0s ALL_COVERED
+-- 7_12
+p=7 e=1 m=12 (q^m): cells=7 found=7 samples=245 successes=15 nonFq=0 time=0.0s ALL_COVERED
+-- 19_8
+p=19 e=1 m=8 (q^m): cells=38 found=38 samples=6052 successes=150 nonFq=0 time=0.0s ALL_COVERED
+-- 11_10
+p=11 e=1 m=10 (q^m): cells=44 found=44 samples=1701 successes=289 nonFq=0 time=0.0s ALL_COVERED
+-- 31_7
+p=31 e=1 m=7 (q^m): cells=124 found=124 samples=48391 successes=619 nonFq=0 time=0.0s ALL_COVERED
+-- 23_8
+p=23 e=1 m=8 (q^m): cells=230 found=230 samples=42192 successes=1184 nonFq=0 time=0.0s ALL_COVERED
+-- 37_7
+p=37 e=1 m=7 (q^m): cells=148 found=148 samples=98157 successes=875 nonFq=0 time=0.0s ALL_COVERED
+-- 25_8
+p=5 e=2 m=8 (q^m): cells=100 found=100 samples=1885 successes=209 nonFq=0 time=0.0s ALL_COVERED
+-- 43_7
+p=43 e=1 m=7 (q^m): cells=258 found=258 samples=21952 successes=1331 nonFq=0 time=0.0s ALL_COVERED
+-- 29_8
+p=29 e=1 m=8 (q^m): cells=348 found=348 samples=41243 successes=1690 nonFq=0 time=0.0s ALL_COVERED
+-- 49_7
+p=7 e=2 m=7 (q^m): cells=392 found=392 samples=127941 successes=1188 nonFq=0 time=0.2s ALL_COVERED
+-- 32_8
+p=2 e=5 m=8 (q^m): cells=960 found=960 samples=76012 successes=1516 nonFq=0 time=1.6s ALL_COVERED
+-- 61_7
+p=61 e=1 m=7 (q^m): cells=488 found=488 samples=399087 successes=2660 nonFq=0 time=0.1s ALL_COVERED
+-- 37_8
+p=37 e=1 m=8 (q^m): cells=148 found=148 samples=22545 successes=592 nonFq=0 time=0.0s ALL_COVERED
+-- 64_7
+p=2 e=6 m=7 (q^m): cells=768 found=768 samples=14904 successes=827 nonFq=0 time=0.2s ALL_COVERED
+-- 67_7
+p=67 e=1 m=7 (q^m): cells=670 found=670 samples=684341 successes=4651 nonFq=0 time=0.2s ALL_COVERED
+-- 41_8
+p=41 e=1 m=8 (q^m): cells=656 found=656 samples=138570 successes=7472 nonFq=0 time=0.1s ALL_COVERED
+-- 73_7
+p=73 e=1 m=7 (q^m): cells=584 found=584 samples=663962 successes=3073 nonFq=0 time=0.2s ALL_COVERED
+-- 43_8
+p=43 e=1 m=8 (q^m): cells=258 found=258 samples=132179 successes=1606 nonFq=0 time=0.1s ALL_COVERED
+-- 79_7
+p=79 e=1 m=7 (q^m): cells=948 found=948 samples=1121904 successes=6519 nonFq=0 time=0.3s ALL_COVERED
+-- 47_8
+p=47 e=1 m=8 (q^m): cells=1034 found=1034 samples=559972 successes=7592 nonFq=0 time=0.3s ALL_COVERED
+-- 49_8
+p=7 e=2 m=8 (q^m): cells=392 found=392 samples=21342 successes=1134 nonFq=0 time=0.1s ALL_COVERED
+-- 53_8
+p=53 e=1 m=8 (q^m): cells=1272 found=1272 samples=588203 successes=9635 nonFq=0 time=0.3s ALL_COVERED
+-- 97_7
+p=97 e=1 m=7 (q^m): cells=1552 found=1552 samples=2605944 successes=13147 nonFq=0 time=0.6s ALL_COVERED
+-- 103_7
+p=103 e=1 m=7 (q^m): cells=1648 found=1648 samples=3084029 successes=13415 nonFq=0 time=0.8s ALL_COVERED
+-- 59_8
+p=59 e=1 m=8 (q^m): cells=1652 found=1652 samples=1314021 successes=15646 nonFq=0 time=0.6s ALL_COVERED
+-- 109_7
+p=109 e=1 m=7 (q^m): cells=1308 found=1308 samples=4233860 successes=12643 nonFq=0 time=1.0s ALL_COVERED
+-- 121_7
+p=11 e=2 m=7 (q^m): cells=1936 found=1936 samples=1819394 successes=5892 nonFq=0 time=2.0s ALL_COVERED
+-- 127_7
+p=127 e=1 m=7 (q^m): cells=1524 found=1524 samples=1060957 successes=15568 nonFq=0 time=0.5s ALL_COVERED
+-- 139_7
+p=139 e=1 m=7 (q^m): cells=3058 found=3058 samples=9711362 successes=31973 nonFq=0 time=2.2s ALL_COVERED
+-- 151_7
+p=151 e=1 m=7 (q^m): cells=3020 found=3020 samples=11046700 successes=29601 nonFq=0 time=2.4s ALL_COVERED
+-- 83_8
+p=83 e=1 m=8 (q^m): cells=3320 found=3320 samples=4491803 successes=30146 nonFq=0 time=1.9s ALL_COVERED
+-- 89_8
+p=89 e=1 m=8 (q^m): cells=3560 found=3560 samples=1722356 successes=31867 nonFq=0 time=1.2s ALL_COVERED
+-- 169_7
+p=13 e=2 m=7 (q^m): cells=4056 found=4056 samples=1061535 successes=17617 nonFq=0 time=1.9s ALL_COVERED
+-- 181_7
+p=181 e=1 m=7 (q^m): cells=2896 found=2896 samples=16633683 successes=23741 nonFq=0 time=4.2s ALL_COVERED
+-- 193_7
+p=193 e=1 m=7 (q^m): cells=6176 found=6176 samples=22900801 successes=58279 nonFq=0 time=5.0s ALL_COVERED
+-- 199_7
+p=199 e=1 m=7 (q^m): cells=3980 found=3980 samples=20118546 successes=29461 nonFq=0 time=4.4s ALL_COVERED
+-- 211_7
+p=211 e=1 m=7 (q^m): cells=5064 found=5064 samples=3471223 successes=38205 nonFq=0 time=1.2s ALL_COVERED
+-- 223_7
+p=223 e=1 m=7 (q^m): cells=8028 found=8028 samples=45349822 successes=95443 nonFq=0 time=9.9s ALL_COVERED
+-- 256_7
+p=2 e=8 m=7 (q^m): cells=16384 found=16384 samples=6819882 successes=18566 nonFq=0 time=351.9s ALL_COVERED
+-- 277_7
+p=277 e=1 m=7 (q^m): cells=12188 found=12188 samples=67114745 successes=111868 nonFq=0 time=15.2s ALL_COVERED
+-- 307_7
+p=307 e=1 m=7 (q^m): cells=9824 found=9824 samples=91964357 successes=93969 nonFq=0 time=19.5s ALL_COVERED
+-- 337_7
+p=337 e=1 m=7 (q^m): cells=16176 found=16176 samples=17044488 successes=148698 nonFq=0 time=4.9s ALL_COVERED
+-- 361_7
+p=19 e=2 m=7 (q^m): cells=11552 found=11552 samples=69416923 successes=50889 nonFq=0 time=73.9s ALL_COVERED
+-- 379_7
+p=379 e=1 m=7 (q^m): cells=13644 found=13644 samples=26455115 successes=134564 nonFq=0 time=7.5s ALL_COVERED
+-- 421_7
+p=421 e=1 m=7 (q^m): cells=20208 found=20208 samples=39898217 successes=224437 nonFq=0 time=10.9s ALL_COVERED
+-- 433_7
+p=433 e=1 m=7 (q^m): cells=20784 found=20784 samples=271896672 successes=209148 nonFq=0 time=55.2s ALL_COVERED
+-- 463_7
+p=463 e=1 m=7 (q^m): cells=27780 found=27780 samples=47989049 successes=274789 nonFq=0 time=13.1s ALL_COVERED
+-- 529_7
+p=23 e=2 m=7 (q^m): cells=42320 found=42320 samples=299915664 successes=245155 nonFq=0 time=316.5s ALL_COVERED
+-- 547_7
+p=547 e=1 m=7 (q^m): cells=39384 found=39384 samples=79641144 successes=385363 nonFq=0 time=21.0s ALL_COVERED
+-- 631_7
+p=631 e=1 m=7 (q^m): cells=30288 found=30288 samples=112096630 successes=281985 nonFq=0 time=27.4s ALL_COVERED
+-- 673_7
+p=673 e=1 m=7 (q^m): cells=64608 found=64608 samples=189109279 successes=836600 nonFq=0 time=45.3s ALL_COVERED
+-- 883_7
+p=883 e=1 m=7 (q^m): cells=74172 found=74172 samples=410979911 successes=923152 nonFq=0 time=102.2s ALL_COVERED
+== done

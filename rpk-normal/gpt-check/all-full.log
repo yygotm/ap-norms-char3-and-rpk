@@ -1,0 +1,300 @@
+UTC started: 2026-10-09T19:29:56Z
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+939bbd0d354efbdcc42258bb1211ff53a0ec7b822397cb25772241738b6a0707  rpk-normal/gpt-check/check.cpp
+d1fbedd9f001bcd4f3742be2af85d489055e5f89a9581d9e65b8fb3b702f35af  rpk-normal/gpt-check/check
+948a41d4569d1c2762e0d12a4958b2e649e6db1c0924a36f34507f56f386f54d  rpk-normal/gpt-check/cases.txt
+START mode=full pair=all threads=8
+MOD A 2_8 red=1,0,0,1,0,1,0,1,
+RESULT A 2_8 mode=full field=256 potential=85 scanned=85 primitive=64 orbits=8 normal=8 cells=2 missing=1 bad=0 setup_s=0.000251 loop_s=0.001171 total_s=0.001449 estimate_s=0.001423
+COUNTS A 2_8 cells=0,8, traces=0,8,
+MISSING A 2_8 a_id=0 b_id=1
+MOD A 2_10 red=1,0,1,1,0,0,0,1,1,1,
+RESULT A 2_10 mode=full field=1024 potential=341 scanned=341 primitive=300 orbits=30 normal=80 cells=2 missing=0 bad=0 setup_s=0.000034 loop_s=0.000029 total_s=0.000067 estimate_s=0.000063
+COUNTS A 2_10 cells=40,40, traces=40,40,
+MOD A 2_12 red=1,1,0,0,1,0,0,0,1,1,0,1,
+RESULT A 2_12 mode=full field=4096 potential=1365 scanned=1365 primitive=576 orbits=48 normal=132 cells=2 missing=0 bad=0 setup_s=0.000070 loop_s=0.000066 total_s=0.000142 estimate_s=0.000136
+COUNTS A 2_12 cells=84,48, traces=84,48,
+MOD A 2_14 red=1,0,0,0,1,0,1,1,1,1,1,1,1,1,
+RESULT A 2_14 mode=full field=16384 potential=5461 scanned=5461 primitive=5292 orbits=378 normal=1050 cells=2 missing=0 bad=0 setup_s=0.000211 loop_s=0.000282 total_s=0.000498 estimate_s=0.000493
+COUNTS A 2_14 cells=490,560, traces=490,560,
+MOD A 2_16 red=1,0,1,0,0,0,0,1,1,0,1,0,0,0,0,1,
+RESULT A 2_16 mode=full field=65536 potential=21845 scanned=21845 primitive=16384 orbits=1024 normal=4048 cells=2 missing=0 bad=0 setup_s=0.000580 loop_s=0.000517 total_s=0.001102 estimate_s=0.001097
+COUNTS A 2_16 cells=1984,2064, traces=1984,2064,
+MOD A 2_18 red=1,1,1,1,0,1,1,0,0,0,1,1,0,1,0,0,0,1,
+RESULT A 2_18 mode=full field=262144 potential=87381 scanned=87381 primitive=46656 orbits=2592 normal=8622 cells=2 missing=0 bad=0 setup_s=0.001713 loop_s=0.000651 total_s=0.002370 estimate_s=0.002365
+COUNTS A 2_18 cells=4554,4068, traces=4554,4068,
+MOD A 4_7 red=1,1,1,0,0,1,1,1,0,1,0,0,1,0,
+RESULT A 4_7 mode=full field=16384 potential=5461 scanned=5461 primitive=5292 orbits=756 normal=1260 cells=4 missing=0 bad=0 setup_s=0.000073 loop_s=0.000327 total_s=0.000405 estimate_s=0.000399
+COUNTS A 4_7 cells=336,280,322,322, traces=336,280,322,322,
+MOD A 4_8 red=1,0,0,0,1,0,0,0,1,0,1,1,0,1,1,1,
+RESULT A 4_8 mode=full field=65536 potential=21845 scanned=21845 primitive=16384 orbits=2048 normal=3136 cells=4 missing=0 bad=0 setup_s=0.000483 loop_s=0.000825 total_s=0.001314 estimate_s=0.001308
+COUNTS A 4_8 cells=832,768,768,768, traces=832,768,768,768,
+MOD A 4_9 red=1,0,0,1,1,1,0,0,1,0,0,1,0,0,1,0,1,0,
+RESULT A 4_9 mode=full field=262144 potential=87381 scanned=87381 primitive=46656 orbits=5184 normal=18900 cells=4 missing=0 bad=0 setup_s=0.001366 loop_s=0.000852 total_s=0.002224 estimate_s=0.002219
+COUNTS A 4_9 cells=4536,4788,4788,4788, traces=4536,4788,4788,4788,
+MOD A 4_10 red=1,1,0,1,1,1,1,1,0,1,1,0,1,0,1,1,0,1,0,1,
+RESULT A 4_10 mode=full field=1048576 potential=349525 scanned=349525 primitive=240000 orbits=24000 normal=39680 cells=4 missing=0 bad=0 setup_s=0.005353 loop_s=0.002639 total_s=0.008005 estimate_s=0.007993
+COUNTS A 4_10 cells=9660,9880,10070,10070, traces=9660,9880,10070,10070,
+MOD A 4_12 red=1,1,0,0,0,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,0,1,0,
+RESULT A 4_12 mode=full field=16777216 potential=5592405 scanned=5592405 primitive=2211840 orbits=184320 normal=698592 cells=4 missing=0 bad=0 setup_s=0.078518 loop_s=0.053893 total_s=0.132425 estimate_s=0.132411
+COUNTS A 4_12 cells=176640,174744,173604,173604, traces=176640,174744,173604,173604,
+MOD A 5_8 red=3,2,3,3,2,2,1,4,
+RESULT A 5_8 mode=full field=390625 potential=130208 scanned=130208 primitive=59904 orbits=7488 normal=22272 cells=10 missing=0 bad=0 setup_s=0.004572 loop_s=0.001889 total_s=0.006475 estimate_s=0.006461
+COUNTS A 5_8 cells=2336,2336,2200,2200,2200,2200,2200,2200,2200,2200, traces=4672,4400,4400,4400,4400,
+MOD A 5_10 red=3,1,4,0,0,2,1,2,0,0,
+RESULT A 5_10 mode=full field=9765625 potential=3255208 scanned=3255208 primitive=1456000 orbits=145600 normal=371320 cells=10 missing=0 bad=0 setup_s=0.124344 loop_s=0.045721 total_s=0.170080 estimate_s=0.170065
+COUNTS A 5_10 cells=36260,36260,37540,37160,37160,37540,37540,37160,37160,37540, traces=72520,74700,74700,74700,74700,
+MOD A 5_12 red=3,4,1,0,4,0,1,4,0,2,2,2,
+RESULT A 5_12 mode=full field=244140625 potential=81380208 scanned=81380208 primitive=20736000 orbits=1728000 normal=7205184 cells=10 missing=0 bad=0 setup_s=3.470956 loop_s=1.006277 total_s=4.477251 estimate_s=4.477233
+COUNTS A 5_12 cells=716880,714432,721428,722040,721428,722040,721428,722040,721428,722040, traces=1431312,1443468,1443468,1443468,1443468,
+MOD A 7_7 red=5,4,3,3,2,0,0,
+RESULT A 7_7 mode=full field=823543 potential=274514 scanned=274514 primitive=132496 orbits=18928 normal=16268 cells=7 missing=0 bad=0 setup_s=0.009482 loop_s=0.002326 total_s=0.011824 estimate_s=0.011808
+COUNTS A 7_7 cells=2226,2198,2387,2240,2408,2401,2408, traces=2226,2408,2401,2408,2198,2387,2240,
+MOD A 7_8 red=4,4,6,0,1,2,3,1,
+RESULT A 7_8 mode=full field=5764801 potential=1921600 scanned=1921600 primitive=768000 orbits=96000 normal=176896 cells=7 missing=0 bad=0 setup_s=0.073701 loop_s=0.019671 total_s=0.093388 estimate_s=0.093372
+COUNTS A 7_8 cells=25280,25440,25256,25112,25440,25256,25112, traces=25280,25440,25256,25112,25440,25256,25112,
+MOD A 7_9 red=3,0,1,4,0,5,5,3,3,
+RESULT A 7_9 mode=full field=40353607 potential=13451202 scanned=13451202 primitive=4129056 orbits=458784 normal=1291356 cells=7 missing=0 bad=0 setup_s=0.548477 loop_s=0.138901 total_s=0.687398 estimate_s=0.687378
+COUNTS A 7_9 cells=184518,185400,183546,185400,183546,185400,183546, traces=184518,183546,185400,183546,185400,183546,185400,
+RESULT B 7_12 mode=full total=7 checked=7 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003233 loop_s=0.000638 total_s=0.003884 estimate_s=0.003870
+FIXTURE 7_12 index=0 rank=11 a=6,0,0,0,0,0,0,0,0,0,0,0, b=6,0,0,0,0,0,0,0,0,0,0,0,
+FIXTURE 7_12 index=3 rank=11 a=1,0,0,0,0,0,0,0,0,0,0,0, b=6,0,0,0,0,0,0,0,0,0,0,0,
+FIXTURE 7_12 index=6 rank=11 a=5,0,0,0,0,0,0,0,0,0,0,0, b=6,0,0,0,0,0,0,0,0,0,0,0,
+MOD A 8_8 red=1,0,1,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,
+RESULT A 8_8 mode=full field=16777216 potential=5592405 scanned=5592405 primitive=2211840 orbits=276480 normal=244656 cells=48 missing=0 bad=0 setup_s=0.080831 loop_s=0.064482 total_s=0.145331 estimate_s=0.145312
+COUNTS A 8_8 cells=5088,5088,5088,5088,5088,5088,5016,5016,5016,5016,5016,5016,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112,5112, traces=30528,30672,30576,30576,30576,30576,30576,30576,
+MOD A 11_8 red=4,5,8,4,1,3,0,10,
+RESULT A 11_8 mode=full field=214358881 potential=71452960 scanned=71452960 primitive=28108800 orbits=3513600 normal=4535936 cells=44 missing=0 bad=0 setup_s=3.291192 loop_s=0.810278 total_s=4.101488 estimate_s=4.101470
+COUNTS A 11_8 cells=103296,103296,103296,103296,102960,102840,102448,104032,102448,104032,102840,103064,102840,103064,104032,102960,104032,102960,103064,102448,103064,102448,102960,102840,102960,102840,102448,104032,102448,104032,102840,103064,102840,103064,104032,102960,104032,102960,103064,102448,103064,102448,102960,102840, traces=413184,412280,412384,412896,412504,411312,412280,412384,412896,412504,411312,
+RESULT B 11_10 mode=full total=44 checked=44 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003307 loop_s=0.001327 total_s=0.004700 estimate_s=0.004634
+FIXTURE 11_10 index=0 rank=9 a=10,0,0,0,0,0,0,0,0,0, b=2,0,0,0,0,0,0,0,0,0,
+FIXTURE 11_10 index=22 rank=9 a=10,0,0,0,0,0,0,0,0,0, b=7,0,0,0,0,0,0,0,0,0,
+FIXTURE 11_10 index=43 rank=9 a=10,0,0,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,0,0,
+MOD A 13_7 red=11,12,11,8,3,5,8,
+RESULT A 13_7 mode=full field=62748517 potential=20916172 scanned=20916172 primitive=10458084 orbits=1494012 normal=790272 cells=26 missing=0 bad=0 setup_s=0.890926 loop_s=0.235660 total_s=1.126605 estimate_s=1.126586
+COUNTS A 13_7 cells=30268,30268,30121,30121,30422,30422,30450,30450,30387,30387,30618,30618,30597,30597,30310,30310,29918,29918,30331,30331,30401,30401,30331,30331,30982,30982, traces=60536,60788,60949,61579,60431,60340,60781,60788,60949,61579,60431,60340,60781,
+RESULT B 13_8 mode=full total=26 checked=26 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003136 loop_s=0.000763 total_s=0.003913 estimate_s=0.003899
+FIXTURE 13_8 index=0 rank=7 a=4,0,0,0,0,0,0,0, b=5,0,0,0,0,0,0,0,
+FIXTURE 13_8 index=13 rank=7 a=8,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,
+FIXTURE 13_8 index=25 rank=7 a=12,0,0,0,0,0,0,0, b=5,0,0,0,0,0,0,0,
+MOD A 16_7 red=1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1,1,0,1,1,0,0,
+RESULT A 16_7 mode=full field=268435456 potential=89478485 scanned=89478485 primitive=66382848 orbits=9483264 normal=4146912 cells=64 missing=0 bad=0 setup_s=1.348541 loop_s=3.248910 total_s=4.597467 estimate_s=4.597451
+COUNTS A 16_7 cells=63812,63812,63812,63812,64904,64904,64904,64904,65170,65170,64694,64890,64694,65170,64890,65170,64904,64064,64904,64904,64890,64694,65170,65170,65170,64694,64694,65170,64904,64904,64904,64064,65170,64694,64890,64694,65170,64890,65170,64694,64064,64904,64904,64904,64694,65170,65170,64694,64694,64694,65170,64890,64904,64904,64064,64904,64694,64890,64694,65170,64890,65170,64694,64694, traces=255248,259616,259924,259924,258776,259924,259728,258776,259448,259924,258776,259728,259448,258776,259448,259448,
+RESULT B 16_8 mode=full total=64 checked=64 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003475 loop_s=0.000554 total_s=0.004043 estimate_s=0.004029
+FIXTURE 16_8 index=0 rank=28 a=1,1,1,0,1,1,1,0,1,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0, b=1,1,1,0,1,1,1,0,1,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,
+FIXTURE 16_8 index=32 rank=28 a=0,1,0,1,1,1,1,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,1,1,0,1,0,1,0,1,1,1, b=1,1,1,1,1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,1,0,1,0,1,1,1,
+FIXTURE 16_8 index=63 rank=28 a=1,0,1,0,0,1,1,0,0,1,0,1,1,0,1,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0, b=0,1,0,1,1,1,1,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,1,1,0,1,0,1,0,1,1,1,
+RESULT B 17_8 mode=full total=136 checked=136 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003568 loop_s=0.001054 total_s=0.004636 estimate_s=0.004622
+FIXTURE 17_8 index=0 rank=7 a=15,0,0,0,0,0,0,0, b=14,0,0,0,0,0,0,0,
+FIXTURE 17_8 index=68 rank=7 a=10,0,0,0,0,0,0,0, b=5,0,0,0,0,0,0,0,
+FIXTURE 17_8 index=135 rank=7 a=16,0,0,0,0,0,0,0, b=10,0,0,0,0,0,0,0,
+RESULT B 19_7 mode=full total=38 checked=38 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003360 loop_s=0.000734 total_s=0.004105 estimate_s=0.004094
+FIXTURE 19_7 index=0 rank=6 a=1,0,0,0,0,0,0, b=8,0,0,0,0,0,0,
+FIXTURE 19_7 index=19 rank=6 a=12,0,0,0,0,0,0, b=8,0,0,0,0,0,0,
+FIXTURE 19_7 index=37 rank=6 a=15,0,0,0,0,0,0, b=8,0,0,0,0,0,0,
+RESULT B 19_8 mode=full total=38 checked=38 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003063 loop_s=0.001243 total_s=0.004316 estimate_s=0.004306
+FIXTURE 19_8 index=0 rank=7 a=14,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,
+FIXTURE 19_8 index=19 rank=7 a=3,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,
+FIXTURE 19_8 index=37 rank=7 a=13,0,0,0,0,0,0,0, b=12,0,0,0,0,0,0,0,
+RESULT B 23_8 mode=full total=230 checked=230 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003882 loop_s=0.001204 total_s=0.005096 estimate_s=0.005086
+FIXTURE 23_8 index=0 rank=7 a=20,0,0,0,0,0,0,0, b=11,0,0,0,0,0,0,0,
+FIXTURE 23_8 index=115 rank=7 a=17,0,0,0,0,0,0,0, b=11,0,0,0,0,0,0,0,
+FIXTURE 23_8 index=229 rank=7 a=1,0,0,0,0,0,0,0, b=20,0,0,0,0,0,0,0,
+RESULT B 25_7 mode=full total=100 checked=100 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003406 loop_s=0.002209 total_s=0.005627 estimate_s=0.005615
+FIXTURE 25_7 index=0 rank=12 a=2,4,0,4,0,2,0,0,0,4,0,3,0,4, b=0,3,0,3,0,4,0,0,0,3,0,1,0,3,
+FIXTURE 25_7 index=50 rank=12 a=3,2,0,2,0,1,0,0,0,2,0,4,0,2, b=0,2,0,2,0,1,0,0,0,2,0,4,0,2,
+FIXTURE 25_7 index=99 rank=12 a=3,4,0,4,0,2,0,0,0,4,0,3,0,4, b=0,2,0,2,0,1,0,0,0,2,0,4,0,2,
+RESULT B 25_8 mode=full total=100 checked=100 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003818 loop_s=0.003424 total_s=0.007255 estimate_s=0.007242
+FIXTURE 25_8 index=0 rank=14 a=0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0, b=0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+FIXTURE 25_8 index=50 rank=14 a=1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0, b=0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+FIXTURE 25_8 index=99 rank=14 a=3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0, b=0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+RESULT B 29_8 mode=full total=348 checked=348 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003537 loop_s=0.002196 total_s=0.005743 estimate_s=0.005733
+FIXTURE 29_8 index=0 rank=7 a=20,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,
+FIXTURE 29_8 index=174 rank=7 a=3,0,0,0,0,0,0,0, b=18,0,0,0,0,0,0,0,
+FIXTURE 29_8 index=347 rank=7 a=3,0,0,0,0,0,0,0, b=11,0,0,0,0,0,0,0,
+RESULT B 31_7 mode=full total=124 checked=124 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003372 loop_s=0.000647 total_s=0.004029 estimate_s=0.004019
+FIXTURE 31_7 index=0 rank=6 a=8,0,0,0,0,0,0, b=27,0,0,0,0,0,0,
+FIXTURE 31_7 index=62 rank=6 a=18,0,0,0,0,0,0, b=27,0,0,0,0,0,0,
+FIXTURE 31_7 index=123 rank=6 a=11,0,0,0,0,0,0, b=15,0,0,0,0,0,0,
+RESULT B 32_8 mode=full total=960 checked=960 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006350 loop_s=0.004368 total_s=0.010732 estimate_s=0.010718
+FIXTURE 32_8 index=0 rank=35 a=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, b=1,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,0,1,1,1,0,1,1,1,1,1,0,1,0,0,0,1,0,1,0,1,0,
+FIXTURE 32_8 index=480 rank=35 a=0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,1,1,1,1,1,0,0,1,0,1,0,0,1,1,0,0,0,0,1,1, b=0,1,0,1,0,0,1,0,1,0,0,1,1,0,1,0,0,1,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,1,0,0,1,1,1,0,
+FIXTURE 32_8 index=959 rank=35 a=0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1,0,0,1,0,0, b=0,0,1,1,0,0,0,1,0,0,1,1,0,0,1,1,1,1,0,1,1,1,0,0,0,0,1,0,1,0,1,1,1,1,1,0,0,0,0,1,
+RESULT B 37_7 mode=full total=148 checked=148 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003421 loop_s=0.000894 total_s=0.004324 estimate_s=0.004315
+FIXTURE 37_7 index=0 rank=6 a=14,0,0,0,0,0,0, b=14,0,0,0,0,0,0,
+FIXTURE 37_7 index=74 rank=6 a=1,0,0,0,0,0,0, b=29,0,0,0,0,0,0,
+FIXTURE 37_7 index=147 rank=6 a=30,0,0,0,0,0,0, b=23,0,0,0,0,0,0,
+RESULT B 37_8 mode=full total=148 checked=148 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003536 loop_s=0.002130 total_s=0.005677 estimate_s=0.005666
+FIXTURE 37_8 index=0 rank=7 a=12,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,
+FIXTURE 37_8 index=74 rank=7 a=31,0,0,0,0,0,0,0, b=23,0,0,0,0,0,0,0,
+FIXTURE 37_8 index=147 rank=7 a=32,0,0,0,0,0,0,0, b=29,0,0,0,0,0,0,0,
+RESULT B 41_8 mode=full total=656 checked=656 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003687 loop_s=0.004740 total_s=0.008440 estimate_s=0.008427
+FIXTURE 41_8 index=0 rank=7 a=16,0,0,0,0,0,0,0, b=34,0,0,0,0,0,0,0,
+FIXTURE 41_8 index=328 rank=7 a=34,0,0,0,0,0,0,0, b=6,0,0,0,0,0,0,0,
+FIXTURE 41_8 index=655 rank=7 a=3,0,0,0,0,0,0,0, b=19,0,0,0,0,0,0,0,
+RESULT B 43_7 mode=full total=258 checked=258 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003769 loop_s=0.001082 total_s=0.004863 estimate_s=0.004851
+FIXTURE 43_7 index=0 rank=6 a=37,0,0,0,0,0,0, b=22,0,0,0,0,0,0,
+FIXTURE 43_7 index=129 rank=6 a=31,0,0,0,0,0,0, b=22,0,0,0,0,0,0,
+FIXTURE 43_7 index=257 rank=6 a=10,0,0,0,0,0,0, b=27,0,0,0,0,0,0,
+RESULT B 43_8 mode=full total=258 checked=258 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003315 loop_s=0.002505 total_s=0.005833 estimate_s=0.005821
+FIXTURE 43_8 index=0 rank=7 a=28,0,0,0,0,0,0,0, b=32,0,0,0,0,0,0,0,
+FIXTURE 43_8 index=129 rank=7 a=35,0,0,0,0,0,0,0, b=32,0,0,0,0,0,0,0,
+FIXTURE 43_8 index=257 rank=7 a=30,0,0,0,0,0,0,0, b=39,0,0,0,0,0,0,0,
+RESULT B 47_8 mode=full total=1034 checked=1034 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004226 loop_s=0.008129 total_s=0.012371 estimate_s=0.012355
+FIXTURE 47_8 index=0 rank=7 a=23,0,0,0,0,0,0,0, b=44,0,0,0,0,0,0,0,
+FIXTURE 47_8 index=517 rank=7 a=44,0,0,0,0,0,0,0, b=5,0,0,0,0,0,0,0,
+FIXTURE 47_8 index=1033 rank=7 a=26,0,0,0,0,0,0,0, b=43,0,0,0,0,0,0,0,
+RESULT B 49_7 mode=full total=392 checked=392 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003854 loop_s=0.005567 total_s=0.009433 estimate_s=0.009420
+FIXTURE 49_7 index=0 rank=12 a=0,3,4,3,2,2,1,5,1,0,5,6,1,5, b=3,3,4,3,2,2,1,5,1,0,5,6,1,5,
+FIXTURE 49_7 index=196 rank=12 a=4,5,2,5,1,1,4,6,4,0,6,3,4,6, b=5,2,5,2,6,6,3,1,3,0,1,4,3,1,
+FIXTURE 49_7 index=391 rank=12 a=3,3,4,3,2,2,1,5,1,0,5,6,1,5, b=4,2,5,2,6,6,3,1,3,0,1,4,3,1,
+RESULT B 49_8 mode=full total=392 checked=392 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004057 loop_s=0.007640 total_s=0.011709 estimate_s=0.011697
+FIXTURE 49_8 index=0 rank=14 a=1,4,3,2,2,6,1,6,6,6,3,4,3,5,4,3, b=2,2,5,1,1,3,4,3,3,3,5,2,5,6,2,5,
+FIXTURE 49_8 index=196 rank=14 a=0,5,2,6,6,4,3,4,4,4,2,5,2,1,5,2, b=0,3,4,5,5,1,6,1,1,1,4,3,4,2,3,4,
+FIXTURE 49_8 index=391 rank=14 a=4,6,1,3,3,2,5,2,2,2,1,6,1,4,6,1, b=5,5,2,6,6,4,3,4,4,4,2,5,2,1,5,2,
+RESULT B 53_8 mode=full total=1272 checked=1272 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004387 loop_s=0.010129 total_s=0.014530 estimate_s=0.014516
+FIXTURE 53_8 index=0 rank=7 a=3,0,0,0,0,0,0,0, b=27,0,0,0,0,0,0,0,
+FIXTURE 53_8 index=636 rank=7 a=39,0,0,0,0,0,0,0, b=51,0,0,0,0,0,0,0,
+FIXTURE 53_8 index=1271 rank=7 a=3,0,0,0,0,0,0,0, b=8,0,0,0,0,0,0,0,
+RESULT B 59_8 mode=full total=1652 checked=1652 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004623 loop_s=0.013950 total_s=0.018588 estimate_s=0.018573
+FIXTURE 59_8 index=0 rank=7 a=11,0,0,0,0,0,0,0, b=23,0,0,0,0,0,0,0,
+FIXTURE 59_8 index=826 rank=7 a=41,0,0,0,0,0,0,0, b=44,0,0,0,0,0,0,0,
+FIXTURE 59_8 index=1651 rank=7 a=17,0,0,0,0,0,0,0, b=6,0,0,0,0,0,0,0,
+RESULT B 61_7 mode=full total=488 checked=488 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003567 loop_s=0.001737 total_s=0.005317 estimate_s=0.005304
+FIXTURE 61_7 index=0 rank=6 a=53,0,0,0,0,0,0, b=28,0,0,0,0,0,0,
+FIXTURE 61_7 index=244 rank=6 a=13,0,0,0,0,0,0, b=33,0,0,0,0,0,0,
+FIXTURE 61_7 index=487 rank=6 a=46,0,0,0,0,0,0, b=37,0,0,0,0,0,0,
+RESULT B 64_7 mode=full total=768 checked=768 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006491 loop_s=0.004093 total_s=0.010599 estimate_s=0.010584
+FIXTURE 64_7 index=0 rank=36 a=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0, b=1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+FIXTURE 64_7 index=384 rank=36 a=0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0, b=1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+FIXTURE 64_7 index=767 rank=36 a=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0, b=1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+RESULT B 67_7 mode=full total=670 checked=670 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003852 loop_s=0.003088 total_s=0.006953 estimate_s=0.006940
+FIXTURE 67_7 index=0 rank=6 a=23,0,0,0,0,0,0, b=52,0,0,0,0,0,0,
+FIXTURE 67_7 index=335 rank=6 a=19,0,0,0,0,0,0, b=52,0,0,0,0,0,0,
+FIXTURE 67_7 index=669 rank=6 a=62,0,0,0,0,0,0, b=58,0,0,0,0,0,0,
+RESULT B 73_7 mode=full total=584 checked=584 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003785 loop_s=0.001984 total_s=0.005781 estimate_s=0.005769
+FIXTURE 73_7 index=0 rank=6 a=2,0,0,0,0,0,0, b=30,0,0,0,0,0,0,
+FIXTURE 73_7 index=292 rank=6 a=69,0,0,0,0,0,0, b=17,0,0,0,0,0,0,
+FIXTURE 73_7 index=583 rank=6 a=26,0,0,0,0,0,0, b=56,0,0,0,0,0,0,
+RESULT B 79_7 mode=full total=948 checked=948 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.003864 loop_s=0.005848 total_s=0.009723 estimate_s=0.009712
+FIXTURE 79_7 index=0 rank=6 a=78,0,0,0,0,0,0, b=61,0,0,0,0,0,0,
+FIXTURE 79_7 index=474 rank=6 a=21,0,0,0,0,0,0, b=33,0,0,0,0,0,0,
+FIXTURE 79_7 index=947 rank=6 a=33,0,0,0,0,0,0, b=17,0,0,0,0,0,0,
+RESULT B 83_8 mode=full total=3320 checked=3320 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006279 loop_s=0.036314 total_s=0.042608 estimate_s=0.042593
+FIXTURE 83_8 index=0 rank=7 a=46,0,0,0,0,0,0,0, b=6,0,0,0,0,0,0,0,
+FIXTURE 83_8 index=1660 rank=7 a=5,0,0,0,0,0,0,0, b=43,0,0,0,0,0,0,0,
+FIXTURE 83_8 index=3319 rank=7 a=45,0,0,0,0,0,0,0, b=66,0,0,0,0,0,0,0,
+RESULT B 89_8 mode=full total=3560 checked=3560 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006630 loop_s=0.037990 total_s=0.044635 estimate_s=0.044620
+FIXTURE 89_8 index=0 rank=7 a=88,0,0,0,0,0,0,0, b=76,0,0,0,0,0,0,0,
+FIXTURE 89_8 index=1780 rank=7 a=33,0,0,0,0,0,0,0, b=13,0,0,0,0,0,0,0,
+FIXTURE 89_8 index=3559 rank=7 a=2,0,0,0,0,0,0,0, b=51,0,0,0,0,0,0,0,
+RESULT B 97_7 mode=full total=1552 checked=1552 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004691 loop_s=0.006588 total_s=0.011293 estimate_s=0.011279
+FIXTURE 97_7 index=0 rank=6 a=13,0,0,0,0,0,0, b=28,0,0,0,0,0,0,
+FIXTURE 97_7 index=776 rank=6 a=67,0,0,0,0,0,0, b=67,0,0,0,0,0,0,
+FIXTURE 97_7 index=1551 rank=6 a=85,0,0,0,0,0,0, b=55,0,0,0,0,0,0,
+RESULT B 103_7 mode=full total=1648 checked=1648 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004485 loop_s=0.008591 total_s=0.013094 estimate_s=0.013077
+FIXTURE 103_7 index=0 rank=6 a=61,0,0,0,0,0,0, b=80,0,0,0,0,0,0,
+FIXTURE 103_7 index=824 rank=6 a=26,0,0,0,0,0,0, b=69,0,0,0,0,0,0,
+FIXTURE 103_7 index=1647 rank=6 a=15,0,0,0,0,0,0, b=95,0,0,0,0,0,0,
+RESULT B 109_7 mode=full total=1308 checked=1308 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.004346 loop_s=0.007657 total_s=0.012017 estimate_s=0.012003
+FIXTURE 109_7 index=0 rank=6 a=75,0,0,0,0,0,0, b=2,0,0,0,0,0,0,
+FIXTURE 109_7 index=654 rank=6 a=99,0,0,0,0,0,0, b=19,0,0,0,0,0,0,
+FIXTURE 109_7 index=1307 rank=6 a=39,0,0,0,0,0,0, b=32,0,0,0,0,0,0,
+RESULT B 121_7 mode=full total=1936 checked=1936 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006432 loop_s=0.030031 total_s=0.036480 estimate_s=0.036463
+FIXTURE 121_7 index=0 rank=12 a=7,10,0,10,0,8,0,6,0,7,0,8,0,3, b=8,1,0,1,0,3,0,5,0,4,0,3,0,8,
+FIXTURE 121_7 index=968 rank=12 a=10,4,0,4,0,1,0,9,0,5,0,1,0,10, b=10,7,0,7,0,10,0,2,0,6,0,10,0,1,
+FIXTURE 121_7 index=1935 rank=12 a=7,2,0,2,0,6,0,10,0,8,0,6,0,5, b=3,10,0,10,0,8,0,6,0,7,0,8,0,3,
+RESULT B 127_7 mode=full total=1524 checked=1524 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.005030 loop_s=0.009518 total_s=0.014561 estimate_s=0.014547
+FIXTURE 127_7 index=0 rank=6 a=33,0,0,0,0,0,0, b=66,0,0,0,0,0,0,
+FIXTURE 127_7 index=762 rank=6 a=86,0,0,0,0,0,0, b=33,0,0,0,0,0,0,
+FIXTURE 127_7 index=1523 rank=6 a=39,0,0,0,0,0,0, b=27,0,0,0,0,0,0,
+RESULT B 139_7 mode=full total=3058 checked=3058 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.005604 loop_s=0.016592 total_s=0.022212 estimate_s=0.022197
+FIXTURE 139_7 index=0 rank=6 a=44,0,0,0,0,0,0, b=60,0,0,0,0,0,0,
+FIXTURE 139_7 index=1529 rank=6 a=19,0,0,0,0,0,0, b=75,0,0,0,0,0,0,
+FIXTURE 139_7 index=3057 rank=6 a=32,0,0,0,0,0,0, b=27,0,0,0,0,0,0,
+RESULT B 151_7 mode=full total=3020 checked=3020 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.005834 loop_s=0.013591 total_s=0.019496 estimate_s=0.019425
+FIXTURE 151_7 index=0 rank=6 a=83,0,0,0,0,0,0, b=70,0,0,0,0,0,0,
+FIXTURE 151_7 index=1510 rank=6 a=21,0,0,0,0,0,0, b=53,0,0,0,0,0,0,
+FIXTURE 151_7 index=3019 rank=6 a=141,0,0,0,0,0,0, b=26,0,0,0,0,0,0,
+RESULT B 169_7 mode=full total=4056 checked=4056 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.008768 loop_s=0.067753 total_s=0.076539 estimate_s=0.076521
+FIXTURE 169_7 index=0 rank=12 a=5,3,0,2,1,10,0,8,5,5,1,11,11,9, b=7,4,0,7,10,9,0,2,11,11,10,6,6,12,
+FIXTURE 169_7 index=2028 rank=12 a=2,6,0,4,2,7,0,3,10,10,2,9,9,5, b=2,2,0,10,5,11,0,1,12,12,5,3,3,6,
+FIXTURE 169_7 index=4055 rank=12 a=4,10,0,11,12,3,0,5,8,8,12,2,2,4, b=6,9,0,6,3,4,0,11,2,2,3,7,7,1,
+RESULT B 181_7 mode=full total=2896 checked=2896 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006014 loop_s=0.021446 total_s=0.027476 estimate_s=0.027459
+FIXTURE 181_7 index=0 rank=6 a=60,0,0,0,0,0,0, b=6,0,0,0,0,0,0,
+FIXTURE 181_7 index=1448 rank=6 a=122,0,0,0,0,0,0, b=110,0,0,0,0,0,0,
+FIXTURE 181_7 index=2895 rank=6 a=52,0,0,0,0,0,0, b=68,0,0,0,0,0,0,
+RESULT B 193_7 mode=full total=6176 checked=6176 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.007601 loop_s=0.023995 total_s=0.031611 estimate_s=0.031596
+FIXTURE 193_7 index=0 rank=6 a=147,0,0,0,0,0,0, b=94,0,0,0,0,0,0,
+FIXTURE 193_7 index=3088 rank=6 a=184,0,0,0,0,0,0, b=76,0,0,0,0,0,0,
+FIXTURE 193_7 index=6175 rank=6 a=175,0,0,0,0,0,0, b=13,0,0,0,0,0,0,
+RESULT B 199_7 mode=full total=3980 checked=3980 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.006265 loop_s=0.033704 total_s=0.039986 estimate_s=0.039969
+FIXTURE 199_7 index=0 rank=6 a=185,0,0,0,0,0,0, b=42,0,0,0,0,0,0,
+FIXTURE 199_7 index=1990 rank=6 a=123,0,0,0,0,0,0, b=147,0,0,0,0,0,0,
+FIXTURE 199_7 index=3979 rank=6 a=30,0,0,0,0,0,0, b=171,0,0,0,0,0,0,
+RESULT B 211_7 mode=full total=5064 checked=5064 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.008144 loop_s=0.029929 total_s=0.038089 estimate_s=0.038073
+FIXTURE 211_7 index=0 rank=6 a=150,0,0,0,0,0,0, b=18,0,0,0,0,0,0,
+FIXTURE 211_7 index=2532 rank=6 a=174,0,0,0,0,0,0, b=115,0,0,0,0,0,0,
+FIXTURE 211_7 index=5063 rank=6 a=194,0,0,0,0,0,0, b=186,0,0,0,0,0,0,
+RESULT B 223_7 mode=full total=8028 checked=8028 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.009097 loop_s=0.056959 total_s=0.066071 estimate_s=0.066055
+FIXTURE 223_7 index=0 rank=6 a=166,0,0,0,0,0,0, b=95,0,0,0,0,0,0,
+FIXTURE 223_7 index=4014 rank=6 a=21,0,0,0,0,0,0, b=54,0,0,0,0,0,0,
+FIXTURE 223_7 index=8027 rank=6 a=213,0,0,0,0,0,0, b=190,0,0,0,0,0,0,
+RESULT B 256_7 mode=full total=16384 checked=16384 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.072428 loop_s=0.146776 total_s=0.219219 estimate_s=0.219204
+FIXTURE 256_7 index=0 rank=48 a=1,1,1,0,1,1,0,0,1,1,0,1,1,1,1,1,1,0,1,0,1,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,1,0,1,1,1,1,0,0,1,1,1,1,0,0,0,1, b=0,0,0,1,1,1,0,1,1,0,1,1,1,1,0,1,0,1,1,0,1,1,0,0,1,1,0,1,0,1,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,1,1,0,1,0,1,1,1,0,1,1,
+FIXTURE 256_7 index=8192 rank=48 a=1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,0,1,1,0,0,0,0,1,0,1,1,0,0,1,0,1,0,1,1,0,0,0,1, b=0,0,0,1,1,1,0,0,1,1,0,0,1,0,0,1,0,1,0,0,1,1,0,1,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,0,
+FIXTURE 256_7 index=16383 rank=48 a=0,0,1,0,0,1,0,0,0,1,1,0,0,1,1,0,1,0,0,1,0,0,0,1,0,0,1,0,1,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1, b=1,0,1,0,1,0,0,1,1,1,0,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0,
+RESULT B 277_7 mode=full total=12188 checked=12188 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.010234 loop_s=0.077351 total_s=0.087607 estimate_s=0.087585
+FIXTURE 277_7 index=0 rank=6 a=82,0,0,0,0,0,0, b=235,0,0,0,0,0,0,
+FIXTURE 277_7 index=6094 rank=6 a=58,0,0,0,0,0,0, b=235,0,0,0,0,0,0,
+FIXTURE 277_7 index=12187 rank=6 a=244,0,0,0,0,0,0, b=8,0,0,0,0,0,0,
+RESULT B 307_7 mode=full total=9824 checked=9824 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.010248 loop_s=0.075445 total_s=0.085710 estimate_s=0.085693
+FIXTURE 307_7 index=0 rank=6 a=165,0,0,0,0,0,0, b=108,0,0,0,0,0,0,
+FIXTURE 307_7 index=4912 rank=6 a=194,0,0,0,0,0,0, b=194,0,0,0,0,0,0,
+FIXTURE 307_7 index=9823 rank=6 a=32,0,0,0,0,0,0, b=48,0,0,0,0,0,0,
+RESULT B 337_7 mode=full total=16176 checked=16176 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.014941 loop_s=0.099430 total_s=0.114387 estimate_s=0.114371
+FIXTURE 337_7 index=0 rank=6 a=288,0,0,0,0,0,0, b=5,0,0,0,0,0,0,
+FIXTURE 337_7 index=8088 rank=6 a=12,0,0,0,0,0,0, b=279,0,0,0,0,0,0,
+FIXTURE 337_7 index=16175 rank=6 a=113,0,0,0,0,0,0, b=332,0,0,0,0,0,0,
+RESULT B 361_7 mode=full total=11552 checked=11552 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.018377 loop_s=0.348476 total_s=0.366871 estimate_s=0.366853
+FIXTURE 361_7 index=0 rank=12 a=10,13,0,9,0,8,0,7,0,12,0,18,0,18, b=15,1,0,8,0,5,0,2,0,17,0,16,0,16,
+FIXTURE 361_7 index=5776 rank=12 a=10,5,0,2,0,6,0,10,0,9,0,4,0,4, b=18,18,0,11,0,14,0,17,0,2,0,3,0,3,
+FIXTURE 361_7 index=11551 rank=12 a=4,15,0,6,0,18,0,11,0,8,0,12,0,12, b=12,8,0,7,0,2,0,16,0,3,0,14,0,14,
+RESULT B 379_7 mode=full total=13644 checked=13644 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.013973 loop_s=0.097920 total_s=0.111911 estimate_s=0.111892
+FIXTURE 379_7 index=0 rank=6 a=133,0,0,0,0,0,0, b=48,0,0,0,0,0,0,
+FIXTURE 379_7 index=6822 rank=6 a=224,0,0,0,0,0,0, b=147,0,0,0,0,0,0,
+FIXTURE 379_7 index=13643 rank=6 a=225,0,0,0,0,0,0, b=309,0,0,0,0,0,0,
+RESULT B 421_7 mode=full total=20208 checked=20208 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.016892 loop_s=0.130650 total_s=0.147560 estimate_s=0.147543
+FIXTURE 421_7 index=0 rank=6 a=361,0,0,0,0,0,0, b=359,0,0,0,0,0,0,
+FIXTURE 421_7 index=10104 rank=6 a=218,0,0,0,0,0,0, b=218,0,0,0,0,0,0,
+FIXTURE 421_7 index=20207 rank=6 a=210,0,0,0,0,0,0, b=179,0,0,0,0,0,0,
+RESULT B 433_7 mode=full total=20784 checked=20784 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.016883 loop_s=0.151329 total_s=0.168229 estimate_s=0.168212
+FIXTURE 433_7 index=0 rank=6 a=17,0,0,0,0,0,0, b=227,0,0,0,0,0,0,
+FIXTURE 433_7 index=10392 rank=6 a=400,0,0,0,0,0,0, b=343,0,0,0,0,0,0,
+FIXTURE 433_7 index=20783 rank=6 a=24,0,0,0,0,0,0, b=330,0,0,0,0,0,0,
+RESULT B 463_7 mode=full total=27780 checked=27780 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.022717 loop_s=0.229973 total_s=0.252709 estimate_s=0.252690
+FIXTURE 463_7 index=0 rank=6 a=250,0,0,0,0,0,0, b=87,0,0,0,0,0,0,
+FIXTURE 463_7 index=13890 rank=6 a=71,0,0,0,0,0,0, b=274,0,0,0,0,0,0,
+FIXTURE 463_7 index=27779 rank=6 a=303,0,0,0,0,0,0, b=399,0,0,0,0,0,0,
+RESULT B 529_7 mode=full total=42320 checked=42320 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.054982 loop_s=1.233769 total_s=1.288766 estimate_s=1.288750
+FIXTURE 529_7 index=0 rank=12 a=3,12,0,0,0,3,0,2,0,4,0,6,0,9, b=13,15,0,0,0,21,0,14,0,5,0,19,0,17,
+FIXTURE 529_7 index=21160 rank=12 a=17,6,0,0,0,13,0,1,0,2,0,3,0,16, b=11,5,0,0,0,7,0,20,0,17,0,14,0,21,
+FIXTURE 529_7 index=42319 rank=12 a=21,9,0,0,0,8,0,13,0,3,0,16,0,1, b=15,12,0,0,0,3,0,2,0,4,0,6,0,9,
+RESULT B 547_7 mode=full total=39384 checked=39384 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.029396 loop_s=0.276742 total_s=0.306154 estimate_s=0.306138
+FIXTURE 547_7 index=0 rank=6 a=298,0,0,0,0,0,0, b=89,0,0,0,0,0,0,
+FIXTURE 547_7 index=19692 rank=6 a=189,0,0,0,0,0,0, b=382,0,0,0,0,0,0,
+FIXTURE 547_7 index=39383 rank=6 a=38,0,0,0,0,0,0, b=463,0,0,0,0,0,0,
+RESULT B 631_7 mode=full total=30288 checked=30288 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.028035 loop_s=0.253595 total_s=0.281647 estimate_s=0.281630
+FIXTURE 631_7 index=0 rank=6 a=450,0,0,0,0,0,0, b=370,0,0,0,0,0,0,
+FIXTURE 631_7 index=15144 rank=6 a=368,0,0,0,0,0,0, b=533,0,0,0,0,0,0,
+FIXTURE 631_7 index=30287 rank=6 a=7,0,0,0,0,0,0, b=384,0,0,0,0,0,0,
+RESULT B 673_7 mode=full total=64608 checked=64608 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.044172 loop_s=0.354387 total_s=0.398577 estimate_s=0.398559
+FIXTURE 673_7 index=0 rank=6 a=583,0,0,0,0,0,0, b=502,0,0,0,0,0,0,
+FIXTURE 673_7 index=32304 rank=6 a=90,0,0,0,0,0,0, b=167,0,0,0,0,0,0,
+FIXTURE 673_7 index=64607 rank=6 a=615,0,0,0,0,0,0, b=346,0,0,0,0,0,0,
+RESULT B 883_7 mode=full total=74172 checked=74172 bad=0 order_bad=0 rank_bad=0 cell_bad=0 missing=0 duplicates=0 setup_s=0.049150 loop_s=0.668478 total_s=0.717643 estimate_s=0.717628
+FIXTURE 883_7 index=0 rank=6 a=866,0,0,0,0,0,0, b=765,0,0,0,0,0,0,
+FIXTURE 883_7 index=37086 rank=6 a=534,0,0,0,0,0,0, b=12,0,0,0,0,0,0,
+FIXTURE 883_7 index=74171 rank=6 a=831,0,0,0,0,0,0, b=264,0,0,0,0,0,0,
+COMPLETE mode=full pair=all elapsed_s=21.040451
+UTC completed: 2026-10-09T19:30:17Z
