@@ -16,6 +16,7 @@
 #include <string.h>
 #include <time.h>
 #include <omp.h>
+#include <dirent.h>
 
 static int K, n, N;
 static uint64_t M, Q;        // M = 3^N - 1, Q = q
@@ -106,6 +107,18 @@ int main(int argc, char **argv) {
   int threads = argc > 3 ? atoi(argv[3]) : 16;
   int selftest = argc > 4 ? atoi(argv[4]) : 0;
   certdir = argc > 5 ? argv[5] : NULL;
+  if (certdir) {  // refuse to touch a directory that already holds certificate output (before any write)
+    DIR *dp = opendir(certdir);
+    if (!dp) { fprintf(stderr, "cannot open certificate directory %s\n", certdir); exit(2); }
+    struct dirent *de;
+    while ((de = readdir(dp))) {
+      size_t l = strlen(de->d_name);
+      if (!strcmp(de->d_name, "header.txt") || (l > 4 && !strncmp(de->d_name, "cert_", 5) && !strcmp(de->d_name + l - 4, ".bin"))) {
+        fprintf(stderr, "%s/%s already exists: use an empty certificate directory\n", certdir, de->d_name); exit(2);
+      }
+    }
+    closedir(dp);
+  }
   omp_set_num_threads(threads);
   pw3[0] = 1; for (int i = 1; i < 40; i++) pw3[i] = pw3[i - 1] * 3;
   M = pw3[N] - 1; Q = pw3[K];
@@ -203,11 +216,6 @@ int main(int argc, char **argv) {
     for (int c = 0; c < nc; c++) fprintf(h, " %d", cidx[c]);
     fprintf(h, "\nrecord = uint32 j, uint32 alpha_log[%d] (index pos(c1)*%d+pos(c2)), little endian\n", need, nc);
     fclose(h);
-    for (int t = 0; t < 1000; t++) {  // refuse to mix with certificates of an earlier run
-      snprintf(path, sizeof path, "%s/cert_%03d.bin", certdir, t);
-      FILE *ex = fopen(path, "rb");
-      if (ex) { fclose(ex); fprintf(stderr, "%s already exists: use an empty certificate directory\n", path); exit(2); }
-    }
     for (int t = 0; t < threads; t++) {
       snprintf(path, sizeof path, "%s/cert_%03d.bin", certdir, t);
       cf[t] = fopen(path, "wb");

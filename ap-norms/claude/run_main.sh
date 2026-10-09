@@ -10,7 +10,9 @@ gcc -O2 -march=native -fopenmp -o apnorm apnorm.c || exit 1
 run() {  # k n
   local q=$((3**$1)); local d=$OUT/${q}_$2; mkdir -p "$d"; cd "$d"
   /usr/bin/time -v "$OUT/apnorm" $1 $2 16 0 "$d" > result.txt 2> stderr.txt
-  echo "exit=$? $(cat result.txt)" >> "$LOG/main.log"
+  rc=$?
+  echo "exit=$rc $(cat result.txt)" >> "$LOG/main.log"
+  if [ $rc -ne 0 ]; then cat stderr.txt >&2; echo "apnorm failed (exit $rc); use an empty $d" >&2; exit $rc; fi
   grep -E "Maximum resident|Elapsed" stderr.txt >> "$LOG/main.log"
 }
 if [ "$1" = "test" ]; then run 2 6; exit; fi
